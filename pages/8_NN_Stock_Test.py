@@ -3,6 +3,11 @@ import joblib
 import numpy as np
 import pandas as pd
 import os
+import warnings
+
+# Suppress TensorFlow warnings
+warnings.filterwarnings('ignore', category=UserWarning)
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # ตั้งค่าหน้า
 st.set_page_config(page_title="NN Stock Test", page_icon="🧪", layout="wide")
@@ -18,8 +23,25 @@ MODEL_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "medel", "s
 @st.cache_resource
 def load_model():
     """โหลดโมเดล Neural Network, Scaler และ Encoders ของหุ้น"""
-    from tensorflow.keras.models import load_model as keras_load
-    model = keras_load(os.path.join(MODEL_DIR, "stock_neural_network_model.h5"))
+    try:
+        from tensorflow import keras
+        import tensorflow as tf
+        
+        # Suppress warnings during loading
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")
+            tf.get_logger().setLevel('ERROR')
+            
+            # Try loading with safe loading enabled
+            model = keras.models.load_model(
+                os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
+                safe_mode=False
+            )
+    except:
+        # Fallback: try without safe_mode
+        from tensorflow.keras.models import load_model as keras_load
+        model = keras_load(os.path.join(MODEL_DIR, "stock_neural_network_model.h5"))
+    
     scaler = joblib.load(os.path.join(MODEL_DIR, "stock_scaler.pkl"))
     encoders = joblib.load(os.path.join(MODEL_DIR, "stock_encoders.pkl"))
     return model, scaler, encoders
