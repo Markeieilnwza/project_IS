@@ -32,15 +32,44 @@ def load_model():
             warnings.simplefilter("ignore")
             tf.get_logger().setLevel('ERROR')
             
-            # Try loading with safe loading enabled
-            model = keras.models.load_model(
+            # Try with custom_objects to handle old config
+            custom_objects = {
+                'InputLayer': keras.layers.InputLayer,
+            }
+            
+            try:
+                model = keras.models.load_model(
+                    os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
+                    custom_objects=custom_objects,
+                    safe_mode=False
+                )
+            except:
+                # Try loading with compile=False first, then compile separately
+                model = keras.models.load_model(
+                    os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
+                    compile=False,
+                    custom_objects=custom_objects
+                )
+                try:
+                    model.compile(optimizer='adam', loss='mse')
+                except:
+                    pass
+    except Exception as first_error:
+        try:
+            # Try with legacy format
+            import h5py
+            from tensorflow.keras.models import load_model as keras_load
+            
+            model = keras_load(
                 os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
-                safe_mode=False
+                compile=False
             )
-    except:
-        # Fallback: try without safe_mode
-        from tensorflow.keras.models import load_model as keras_load
-        model = keras_load(os.path.join(MODEL_DIR, "stock_neural_network_model.h5"))
+            try:
+                model.compile(optimizer='adam', loss='mse')
+            except:
+                pass
+        except:
+            raise first_error
     
     scaler = joblib.load(os.path.join(MODEL_DIR, "stock_scaler.pkl"))
     encoders = joblib.load(os.path.join(MODEL_DIR, "stock_encoders.pkl"))
