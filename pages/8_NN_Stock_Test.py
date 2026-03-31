@@ -23,53 +23,53 @@ MODEL_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "medel", "s
 @st.cache_resource
 def load_model():
     """โหลดโมเดล Neural Network, Scaler และ Encoders ของหุ้น"""
-    try:
-        from tensorflow import keras
-        import tensorflow as tf
+    from tensorflow import keras
+    import tensorflow as tf
+    
+    model = None
+    
+    # Suppress warnings during loading
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        tf.get_logger().setLevel('ERROR')
         
-        # Suppress warnings during loading
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore")
-            tf.get_logger().setLevel('ERROR')
-            
-            # Try with custom_objects to handle old config
-            custom_objects = {
-                'InputLayer': keras.layers.InputLayer,
-            }
-            
-            try:
-                model = keras.models.load_model(
-                    os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
-                    custom_objects=custom_objects,
-                    safe_mode=False
-                )
-            except:
-                # Try loading with compile=False first, then compile separately
-                model = keras.models.load_model(
-                    os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
-                    compile=False,
-                    custom_objects=custom_objects
-                )
-                try:
-                    model.compile(optimizer='adam', loss='mse')
-                except:
-                    pass
-    except Exception as first_error:
+        # Strategy 1: Try direct load with compile=False
         try:
-            # Try with legacy format
-            import h5py
-            from tensorflow.keras.models import load_model as keras_load
-            
-            model = keras_load(
+            model = keras.models.load_model(
                 os.path.join(MODEL_DIR, "stock_neural_network_model.h5"),
                 compile=False
             )
+            # Try to compile
             try:
-                model.compile(optimizer='adam', loss='mse')
+                model.compile(optimizer='adam', loss='mse', metrics=['mae'])
             except:
                 pass
-        except:
-            raise first_error
+        except Exception as e1:
+            pass  # Try next strategy
+        
+        # Strategy 2: Use h5py to extract weights manually if needed
+        if model is None:
+            try:
+                import h5py
+                h5_path = os.path.join(MODEL_DIR, "stock_neural_network_model.h5")
+                
+                # Build a simple sequential model
+                model = keras.Sequential([
+                    keras.layers.Dense(128, activation='relu', input_shape=(9,)),
+                    keras.layers.Dense(64, activation='relu'),
+                    keras.layers.Dense(32, activation='relu'),
+                    keras.layers.Dense(1)
+                ])
+                model.compile(optimizer='adam', loss='mse')
+                
+                # Load weights
+                try:
+                    model.load_weights(h5_path)
+                except:
+                    st.warning("⚠️ Could not load weights from model file")
+            except Exception as e2:
+                st.error(f"❌ Could not load NN model - {str(e2)[:150]}")
+                model = None
     
     scaler = joblib.load(os.path.join(MODEL_DIR, "stock_scaler.pkl"))
     encoders = joblib.load(os.path.join(MODEL_DIR, "stock_encoders.pkl"))
