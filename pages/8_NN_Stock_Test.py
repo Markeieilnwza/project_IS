@@ -4,6 +4,14 @@ import numpy as np
 import pandas as pd
 import os
 import warnings
+import sys
+
+# Numpy compatibility fix for old sklearn pickle files
+try:
+    import numpy._core
+    np.core = numpy._core
+except ImportError:
+    pass
 
 # Suppress TensorFlow warnings
 warnings.filterwarnings('ignore', category=UserWarning)

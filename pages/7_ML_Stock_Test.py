@@ -3,6 +3,14 @@ import joblib
 import numpy as np
 import pandas as pd
 import os
+import sys
+
+# Numpy compatibility fix for old sklearn pickle files
+try:
+    import numpy._core
+    np.core = numpy._core
+except ImportError:
+    pass
 
 # ตั้งค่าหน้า
 st.set_page_config(page_title="ML Stock Test", page_icon="🔬", layout="wide")
