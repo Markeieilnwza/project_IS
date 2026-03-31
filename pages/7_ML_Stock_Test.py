@@ -114,20 +114,31 @@ if submitted:
         categorical_cols = ["symbol"]
         
         try:
-            # Handle encoders - could be dict or ColumnTransformer
+            # Handle encoders - dict of LabelEncoders (one per column)
             if isinstance(encoders, dict):
                 for col in categorical_cols:
                     if col in encoders:
-                        df_input[col] = encoders[col].transform(df_input[col])
+                        # Transform 1D array (Series values as 1D array)
+                        df_input[col] = encoders[col].transform(df_input[[col]].values.ravel())
             else:
-                # Try to apply encoders as a transformer to the whole dataframe or specific columns
+                # If single transformer, try to apply to dataframe
                 try:
                     df_input[categorical_cols] = encoders.transform(df_input[categorical_cols])
                 except:
-                    # If that fails, try to apply to whole dataframe
-                    df_input = encoders.transform(df_input)
+                    pass  # Skip if transformer doesn't work
         except Exception as e:
             st.error(f"⚠️ ข้อผิดพลาดในการ encode: {str(e)}")
+
+        # Ensure all values are numeric before scaling
+        try:
+            for col in df_input.columns:
+                df_input[col] = pd.to_numeric(df_input[col], errors='coerce')
+            
+            # Remove any NaN that might result from coercion
+            if df_input.isna().any().any():
+                st.warning("⚠️ พบค่าที่ไม่สามารถแปลงเป็นตัวเลขได้")
+        except Exception as e:
+            st.error(f"❌ ข้อผิดพลาดในการแปลงข้อมูล: {str(e)}")
 
         # Scale features ด้วย scaler ที่บันทึกไว้
         try:
