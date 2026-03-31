@@ -157,13 +157,20 @@ if submitted:
 
         # Scale features ด้วย scaler ที่บันทึกไว้
         try:
-            # Reorder columns to match training order
-            expected_cols = list(df_input.columns)  # Preserve current order
-            df_input = df_input[expected_cols]
+            # Get feature names from scaler if available
+            try:
+                feature_names = scaler.get_feature_names_out()
+                # Reorder and filter columns to match training order
+                df_input = df_input[list(feature_names)]
+            except:
+                # If scaler doesn't have get_feature_names_out, keep current order
+                pass
             
             df_scaled = scaler.transform(df_input)
         except Exception as e:
             st.error(f"❌ ข้อผิดพลาดในการ scale ข้อมูล: {str(e)}")
+            st.error(f"💡 DataFrame columns: {list(df_input.columns)}")
+            st.error(f"💡 DataFrame shape: {df_input.shape}")
             st.stop()
 
         # ทำนายด้วย Neural Network
