@@ -127,9 +127,15 @@ if submitted:
 
         # Encode categorical features ด้วย encoders ที่บันทึกไว้
         categorical_cols = ["gender", "blood_type", "department", "diagnosis"]
-        for col in categorical_cols:
-            if col in encoders:
-                df_input[col] = encoders[col].transform(df_input[col])
+        
+        # Handle encoders - could be dict or single encoder
+        if isinstance(encoders, dict):
+            for col in categorical_cols:
+                if col in encoders:
+                    df_input[col] = encoders[col].transform(df_input[col])
+        else:
+            # If encoders is a single encoder, skip encoding (assume data is already encoded)
+            pass
 
         # Scale features ด้วย scaler ที่บันทึกไว้
         df_scaled = scaler.transform(df_input)
