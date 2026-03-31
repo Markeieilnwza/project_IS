@@ -134,22 +134,35 @@ if submitted:
             for col in df_input.columns:
                 df_input[col] = pd.to_numeric(df_input[col], errors='coerce')
             
-            # Remove any NaN that might result from coercion
-            if df_input.isna().any().any():
-                st.warning("⚠️ พบค่าที่ไม่สามารถแปลงเป็นตัวเลขได้")
+            # Fix NaN values
+            df_input = df_input.fillna(0)
+            
         except Exception as e:
             st.error(f"❌ ข้อผิดพลาดในการแปลงข้อมูล: {str(e)}")
 
         # Scale features ด้วย scaler ที่บันทึกไว้
         try:
+            # Reorder columns to match training order
+            expected_cols = list(df_input.columns)  # Preserve current order
+            df_input = df_input[expected_cols]
+            
             df_scaled = scaler.transform(df_input)
         except Exception as e:
             st.error(f"❌ ข้อผิดพลาดในการ scale ข้อมูล: {str(e)}")
             st.stop()
 
         # ทำนาย
-        prediction = model.predict(df_scaled)
-        predicted_price = round(float(prediction[0]), 2)
+        try:
+            # Ensure df_scaled is 2D numpy array
+            if len(df_scaled.shape) == 1:
+                df_scaled = df_scaled.reshape(1, -1)
+            
+            prediction = model.predict(df_scaled)
+            predicted_price = round(float(prediction[0]), 2)
+        except Exception as e:
+            st.error(f"❌ ข้อผิดพลาดในการทำนาย: {str(e)}")
+            st.error(f"Shape: {df_scaled.shape}, Type: {type(df_scaled)}")
+            st.stop()
 
         st.divider()
 
