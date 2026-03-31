@@ -1,0 +1,1026 @@
+patient_id,age,gender,blood_type,weight_kg,height_cm,bmi,systolic_bp,diastolic_bp,glucose_mg_dl,cholesterol_mg_dl,heart_rate,smoker,exercise_days_week,department,diagnosis,hospital_stay_days
+1,54,Female,B,91.3,176.5,29.31,153,88,261.8,311.6,86,1,3,General,Healthy,14
+2,42,Female,B,97.6,155.9,40.16,92,74,211.7,260.8,72,1,2,General,Heart Disease,4
+3,85,Male,B,68.0,,26.43,143,97,250.4,196.9,86,0,1,Pulmonology,Diabetes,10
+4,63,Female,O,,178.0,14.49,110,105,194.4,286.8,119,1,3,Cardiology,Asthma,11
+5,41,Male,AB,67.5,182.9,20.18,156,74,166.6,266.4,117,1,1,General,Heart Disease,10
+6,69,Female,AB,64.8,187.2,18.49,140,76,,161.0,111,0,2,Cardiology,Healthy,8
+7,29,Male,O,56.4,167.3,,90,83,284.4,220.0,100,0,2,Pulmonology,Diabetes,9
+8,35,Female,B,56.6,163.6,21.15,178,109,209.4,132.8,79,1,1,Pulmonology,Asthma,11
+9,20,Male,O,109.3,178.2,34.42,136,84,76.2,208.3,104,0,2,General,Hypertension,0
+10,20,Female,B,97.0,186.0,28.04,142,84,129.0,258.1,94,1,2,Pulmonology,Hypertension,8
+11,48,Female,A,55.9,168.9,,162,101,,234.7,115,1,2,General,Healthy,11
+12,75,Male,A,47.2,166.6,17.01,140,73,78.3,296.1,105,0,3,Cardiology,Healthy,7
+13,55,Female,B,94.4,156.1,,129,110,123.6,243.5,90,0,3,Pulmonology,Heart Disease,4
+14,51,Male,B,95.2,166.9,34.18,148,63,225.1,163.5,66,0,1,General,Asthma,11
+15,85,Male,B,55.1,172.6,18.5,167,82,225.5,270.7,51,1,1,Endocrinology,Healthy,13
+16,35,Male,A,73.3,151.3,32.02,99,63,212.8,148.3,99,1,3,Cardiology,Heart Disease,6
+17,27,Female,O,109.3,,42.32,131,107,283.4,285.9,90,1,2,Cardiology,Diabetes,8
+18,68,Female,B,86.3,185.8,25.0,136,65,264.6,304.8,81,0,0,Cardiology,Heart Disease,9
+19,51,Male,B,78.6,179.4,24.42,139,68,152.6,223.8,108,0,1,Pulmonology,Asthma,3
+20,82,Male,B,91.1,188.1,25.75,132,83,134.2,128.8,116,1,3,Endocrinology,Hypertension,7
+21,75,Female,A,83.2,158.5,33.12,117,80,158.2,162.0,80,1,0,Pulmonology,Asthma,11
+22,48,Female,A,97.6,,30.56,98,83,266.1,228.7,112,1,1,Cardiology,Healthy,10
+23,28,Male,A,,161.8,41.52,133,83,95.8,215.2,58,1,3,General,Heart Disease,3
+24,79,Male,A,45.8,175.6,14.85,111,99,,140.8,79,0,0,General,Heart Disease,9
+25,76,Male,A,96.4,153.8,40.75,158,75,132.3,242.3,105,1,1,Pulmonology,Heart Disease,8
+26,59,Female,B,117.4,157.1,47.57,158,79,261.3,,115,0,0,Endocrinology,Healthy,13
+27,47,Male,A,95.9,,32.68,149,85,231.9,,107,0,0,Endocrinology,Heart Disease,10
+28,64,Female,B,96.9,151.5,42.22,176,91,103.1,232.4,60,1,1,Endocrinology,Heart Disease,9
+29,39,Male,AB,49.7,176.4,,120,87,110.3,212.2,113,0,3,Cardiology,Hypertension,4
+30,24,Male,B,85.7,175.8,27.73,126,66,188.7,143.9,79,0,0,Endocrinology,Diabetes,3
+31,73,Female,O,47.6,181.2,14.5,131,77,104.9,252.5,100,0,3,General,Asthma,4
+32,49,Female,B,116.0,182.6,34.79,92,70,123.3,197.0,82,0,2,Pulmonology,Hypertension,3
+33,64,Male,A,65.1,188.2,18.38,146,62,160.0,123.7,100,0,0,Cardiology,Heart Disease,8
+34,79,Male,AB,118.5,169.7,,111,84,,176.6,77,0,2,Cardiology,Heart Disease,11
+35,72,Male,AB,48.9,169.3,,151,87,176.6,152.5,76,1,1,Cardiology,Asthma,12
+36,72,Male,AB,60.8,170.4,20.94,123,71,239.4,229.7,54,1,0,General,Healthy,11
+37,55,Male,O,118.1,166.5,42.6,118,96,258.6,125.6,99,0,2,Cardiology,Heart Disease,6
+38,63,Female,A,119.8,152.8,51.31,158,95,,226.0,96,0,1,Pulmonology,Heart Disease,5
+39,0,Female,AB,95.7,172.8,32.05,135,68,110.3,187.3,116,1,0,Pulmonology,Healthy,10
+40,41,Male,O,76.8,189.4,21.41,144,80,79.7,150.6,59,0,3,Cardiology,Hypertension,4
+41,53,Female,A,111.0,185.7,32.19,179,93,,204.7,57,1,0,Endocrinology,Asthma,10
+42,32,Female,AB,51.9,186.5,14.92,92,90,72.3,259.2,82,0,2,Endocrinology,Heart Disease,1
+43,56,Female,B,50.7,153.2,21.6,114,97,245.1,,56,0,0,Endocrinology,Hypertension,5
+44,49,Male,A,119.6,167.8,42.48,109,100,129.8,180.5,118,0,3,Pulmonology,Diabetes,2
+45,37,Male,O,113.1,177.9,35.74,128,60,228.1,266.1,104,1,2,Pulmonology,Asthma,10
+46,67,Male,O,110.0,180.0,33.95,168,74,,278.1,104,0,3,Cardiology,Healthy,5
+47,72,Female,B,,161.2,23.44,134,99,252.9,312.8,117,1,0,Endocrinology,Healthy,13
+48,59,Male,B,60.5,,21.11,90,107,119.7,226.5,94,1,3,General,Hypertension,4
+49,57,Female,O,,160.3,44.33,110,84,280.6,252.4,83,1,3,General,Asthma,9
+50,20,Female,O,113.1,186.3,32.59,161,95,258.5,169.0,57,1,1,Cardiology,Diabetes,8
+51,46,Female,AB,,177.8,36.47,165,90,166.6,268.8,51,0,0,Endocrinology,Diabetes,6
+52,68,Female,AB,88.8,163.7,33.14,100,105,239.0,,95,1,1,General,Asthma,10
+53,68,Female,O,45.6,181.9,13.78,107,90,,294.5,91,1,0,Cardiology,Asthma,5
+54,56,Male,A,116.9,177.7,37.02,171,97,270.9,,95,1,1,Cardiology,Diabetes,11
+55,51,Female,A,109.4,176.0,35.32,178,109,71.9,227.2,96,0,2,Pulmonology,Diabetes,7
+56,69,Female,B,112.3,178.0,35.44,139,85,147.9,151.1,101,0,2,Cardiology,Healthy,8
+57,41,Female,A,86.5,182.2,26.06,136,92,180.8,248.9,78,0,3,Pulmonology,Hypertension,7
+58,83,Female,B,,187.4,15.66,91,103,,169.6,72,1,1,General,Hypertension,7
+59,22,Male,O,74.8,163.3,28.05,133,94,190.5,221.4,103,0,0,Pulmonology,Heart Disease,4
+60,20,Male,O,83.5,159.4,32.86,160,72,118.7,309.0,83,1,2,Cardiology,Hypertension,7
+61,45,Female,B,88.8,159.3,34.99,151,82,171.4,304.2,98,0,3,General,Diabetes,8
+62,52,Female,A,116.6,176.2,37.56,165,100,185.4,,56,0,3,Pulmonology,Asthma,8
+63,24,Male,B,70.3,161.7,26.89,148,92,111.2,210.2,120,0,3,Cardiology,Heart Disease,4
+64,82,Female,AB,68.7,174.5,22.56,161,104,103.9,137.9,84,1,2,Pulmonology,Healthy,11
+65,28,Female,AB,59.7,164.1,22.17,143,69,72.1,276.0,90,0,2,Pulmonology,Healthy,1
+66,59,Female,A,55.9,167.8,19.85,148,109,239.6,155.4,80,1,1,Endocrinology,Heart Disease,14
+67,69,Female,O,114.5,168.2,,147,87,,214.4,106,0,1,Pulmonology,Hypertension,6
+68,60,Female,O,112.1,166.7,,176,60,,217.6,107,1,0,Endocrinology,Heart Disease,8
+69,27,Male,AB,88.2,158.3,,153,101,244.7,285.5,93,0,3,General,Hypertension,10
+70,63,Female,B,74.2,180.7,22.72,141,73,173.7,286.0,106,0,2,Endocrinology,Diabetes,8
+71,60,Male,AB,55.5,156.4,22.69,137,87,217.4,314.6,89,1,2,General,Hypertension,11
+72,24,Female,O,102.5,163.0,38.58,134,62,154.0,189.7,55,0,1,General,Asthma,7
+73,29,Female,A,66.5,178.3,20.92,118,93,174.2,166.1,57,0,1,Endocrinology,Diabetes,6
+74,18,Female,O,85.9,162.2,32.65,114,82,76.8,150.2,56,0,2,General,Healthy,2
+75,23,Female,A,117.9,154.7,49.26,100,88,175.2,261.6,51,1,0,Endocrinology,Healthy,6
+76,37,Male,AB,77.0,165.1,28.25,131,95,91.7,221.4,111,1,3,Pulmonology,Hypertension,5
+77,72,Female,O,83.0,164.5,30.67,115,64,244.4,245.9,101,0,0,Endocrinology,Hypertension,9
+78,30,Female,O,119.5,158.1,47.81,114,81,276.6,189.7,82,0,1,Endocrinology,Heart Disease,8
+79,66,Male,O,47.7,172.5,16.03,160,61,278.1,210.1,114,1,2,Cardiology,Hypertension,13
+80,20,Male,B,100.8,178.8,31.53,158,71,127.0,295.1,79,1,2,Endocrinology,Heart Disease,5
+81,45,Male,AB,79.4,177.8,25.12,108,94,133.3,254.2,108,0,1,Cardiology,Healthy,4
+82,42,Male,B,102.5,170.2,35.38,115,60,142.3,229.0,86,1,2,General,Diabetes,6
+83,27,Female,AB,57.5,152.1,24.85,106,93,263.3,129.8,54,1,1,Pulmonology,Heart Disease,9
+84,39,Female,B,94.0,154.5,39.38,161,74,194.4,,100,0,3,Cardiology,Hypertension,8
+85,57,Male,AB,82.1,169.9,28.44,148,67,296.4,310.2,67,0,2,Pulmonology,Asthma,9
+86,72,female,A,52.1,175.7,16.88,178,103,97.0,213.0,80,1,3,Cardiology,Heart Disease,11
+87,26,Female,B,,,22.84,154,94,130.7,208.2,70,0,2,Endocrinology,Asthma,7
+88,47,Female,B,89.6,153.8,37.88,170,70,155.5,286.3,76,1,0,Endocrinology,Diabetes,12
+89,79,Male,A,106.3,173.8,35.19,124,94,196.6,187.4,56,1,1,Endocrinology,Diabetes,8
+90,41,Male,B,100.7,178.4,31.64,106,78,293.9,,104,1,2,Pulmonology,Diabetes,13
+91,22,Male,O,84.8,174.7,27.78,128,74,261.2,242.6,67,1,0,Pulmonology,Heart Disease,8
+92,64,Female,AB,109.9,163.7,41.01,147,81,173.0,136.5,72,0,3,General,Diabetes,7
+93,28,Male,A,72.0,157.6,28.99,119,90,197.2,159.2,101,1,0,Pulmonology,Diabetes,7
+94,62,Male,O,67.5,150.0,30.0,109,107,196.8,318.1,95,1,0,General,Asthma,6
+95,54,Female,O,73.5,166.4,26.54,141,103,294.1,223.8,69,0,1,Endocrinology,Healthy,8
+96,69,Male,B,95.4,159.6,37.45,110,86,270.7,122.6,113,0,1,Pulmonology,Heart Disease,8
+97,59,Female,O,98.6,183.1,,150,66,199.5,253.6,114,0,1,General,Diabetes,10
+98,67,Male,B,80.3,182.8,24.03,143,60,297.3,138.9,69,1,2,Cardiology,Diabetes,16
+99,40,Female,O,52.4,155.2,21.75,147,60,227.0,120.2,103,0,0,Cardiology,Heart Disease,9
+100,65,Male,AB,65.4,155.3,,160,76,262.4,221.8,51,1,3,Pulmonology,Asthma,15
+101,61,Female,B,,166.0,27.54,175,98,225.4,314.2,112,0,1,Endocrinology,Diabetes,9
+102,45,Female,O,75.1,172.7,25.18,130,93,150.4,209.5,75,1,2,Endocrinology,Healthy,8
+103,46,Male,AB,62.2,186.5,17.88,105,80,216.2,305.9,54,0,3,Cardiology,Diabetes,5
+104,68,Female,A,98.1,162.8,37.01,146,106,113.2,287.8,83,1,0,Cardiology,Hypertension,5
+105,67,Female,AB,68.6,,21.41,126,64,189.8,,101,1,0,General,Diabetes,12
+106,42,Female,A,86.9,154.6,36.36,135,91,292.6,258.1,102,0,0,Endocrinology,Hypertension,12
+107,36,Female,A,47.4,185.7,13.75,147,61,226.4,251.9,56,0,1,Pulmonology,Asthma,6
+108,77,Male,A,,154.3,24.03,96,106,188.2,199.4,82,1,1,Cardiology,Hypertension,7
+109,34,Male,AB,104.0,172.5,34.95,153,68,186.2,125.2,53,0,1,Endocrinology,Hypertension,8
+110,78,Male,A,,159.9,19.16,94,109,181.1,,109,0,2,General,Healthy,9
+111,23,Female,AB,118.2,174.5,38.82,176,79,257.8,276.3,93,0,1,Pulmonology,Healthy,9
+112,65,Male,B,82.1,,30.12,147,81,177.4,255.3,85,1,2,Endocrinology,Heart Disease,8
+113,43,Female,B,102.2,176.5,32.81,146,91,,207.5,80,1,2,Cardiology,Hypertension,8
+114,65,Male,B,,156.5,42.63,128,72,247.6,299.6,52,0,0,General,Diabetes,10
+115,19,Female,AB,65.5,,25.78,168,60,124.5,126.5,105,0,1,General,Healthy,6
+116,29,Male,O,58.0,154.4,,174,84,72.4,307.7,89,1,0,Cardiology,Heart Disease,5
+117,35,Female,B,107.6,166.4,,162,62,170.0,131.8,89,0,3,Endocrinology,Heart Disease,7
+118,75,Male,O,107.2,153.7,45.38,117,63,250.6,271.6,111,0,2,Endocrinology,Heart Disease,6
+119,23,Male,A,91.4,162.6,34.57,164,104,205.5,270.8,88,0,0,Cardiology,Asthma,8
+120,25,Male,O,52.7,183.6,15.63,107,104,85.1,251.4,62,1,0,Pulmonology,Diabetes,1
+121,36,Female,O,56.7,161.3,21.79,114,75,120.9,137.0,92,0,1,Cardiology,Asthma,4
+122,63,Male,AB,114.1,180.5,35.02,119,91,216.1,142.0,86,0,2,Cardiology,Hypertension,6
+123,43,Male,AB,70.6,182.1,21.29,172,60,289.9,163.2,93,0,2,General,Healthy,14
+124,35,Female,B,86.5,159.8,33.87,109,73,82.0,189.5,120,0,2,General,Hypertension,0
+125,84,Female,AB,,171.9,28.73,170,109,207.9,316.2,103,0,1,Pulmonology,Asthma,9
+126,55,Male,AB,70.6,155.2,29.31,146,92,231.3,239.3,105,1,0,Endocrinology,Healthy,12
+127,65,Male,AB,,167.2,20.64,173,99,123.5,250.3,109,1,0,Pulmonology,Diabetes,9
+128,79,Female,B,68.6,180.8,20.99,122,90,161.0,206.6,96,0,0,Endocrinology,Healthy,6
+129,34,Male,B,48.3,158.3,,165,91,216.1,195.6,81,1,2,Endocrinology,Hypertension,13
+130,53,Female,B,,152.2,24.22,122,107,150.1,238.9,78,1,1,Cardiology,Healthy,4
+131,20,Male,A,48.9,182.4,14.7,146,84,164.6,292.6,104,0,2,General,Asthma,6
+132,66,Female,A,,165.4,26.1,163,89,237.0,,100,1,1,Pulmonology,Heart Disease,10
+133,39,Female,B,,,27.26,115,100,87.1,179.9,61,1,3,Endocrinology,Heart Disease,2
+134,38,Male,O,108.1,179.3,33.63,135,71,209.2,177.3,50,1,2,Cardiology,Hypertension,6
+135,28,Female,B,52.5,172.3,17.68,164,82,177.7,265.8,85,0,0,Endocrinology,Asthma,5
+136,34,Female,AB,102.7,158.2,41.04,113,102,192.1,240.7,97,1,0,Pulmonology,Hypertension,9
+137,46,Female,A,,165.7,30.78,145,90,194.4,308.9,90,1,0,Cardiology,Diabetes,8
+138,49,Male,AB,62.3,,22.45,100,92,222.0,191.3,72,1,0,General,Asthma,8
+139,29,Male,AB,74.5,155.5,30.81,125,109,206.2,198.4,95,1,2,Cardiology,Asthma,9
+140,30,Male,A,112.5,154.2,47.31,178,99,262.6,238.4,81,1,3,Pulmonology,Diabetes,15
+141,49,Male,B,92.0,159.8,36.03,153,64,167.7,315.9,63,0,2,General,Asthma,8
+142,54,Female,B,60.0,178.8,18.77,153,62,211.7,261.0,86,0,1,Cardiology,Hypertension,6
+143,43,Female,O,85.8,,26.36,152,110,83.6,184.3,99,0,1,Pulmonology,Hypertension,3
+144,79,Female,O,73.3,183.3,21.82,118,84,252.0,238.6,87,1,2,Cardiology,Healthy,14
+145,47,Female,B,63.4,177.8,20.06,180,83,120.7,280.0,102,0,3,Cardiology,Heart Disease,6
+146,62,Male,B,114.1,170.5,,93,108,232.7,240.3,60,0,3,Cardiology,Asthma,8
+147,21,Female,AB,88.7,,29.84,106,93,203.6,228.3,53,1,1,General,Diabetes,7
+148,40,Male,O,116.3,188.8,32.63,115,106,274.4,180.8,61,0,1,Pulmonology,Asthma,10
+149,66,Female,B,75.4,,28.03,129,87,276.8,293.0,59,1,2,Pulmonology,Healthy,10
+150,38,Female,B,48.0,154.2,20.19,111,75,198.1,175.9,66,0,0,Cardiology,Heart Disease,5
+151,41,Male,O,85.0,161.5,32.59,149,75,90.9,243.5,74,1,1,Cardiology,Asthma,8
+152,40,Female,AB,113.4,170.2,39.15,140,66,122.7,157.5,62,1,1,Endocrinology,Heart Disease,8
+153,57,Female,O,114.8,152.3,49.49,129,99,92.9,150.2,89,0,0,Cardiology,Asthma,7
+154,70,Male,B,74.1,159.6,29.09,130,106,202.5,288.7,90,1,2,Endocrinology,Heart Disease,12
+155,56,Female,B,97.2,172.9,32.51,104,110,80.8,,117,0,2,Pulmonology,Diabetes,4
+156,29,Male,B,109.0,177.6,34.56,161,90,182.4,318.7,58,1,3,General,Asthma,8
+157,21,Male,B,46.6,160.9,,129,76,237.7,236.5,79,0,2,Pulmonology,Diabetes,8
+158,67,Male,O,80.2,168.5,28.25,123,87,145.9,279.4,86,0,3,Pulmonology,Asthma,4
+159,53,Female,O,107.1,185.9,,120,110,83.9,212.8,65,0,0,Cardiology,Diabetes,5
+160,43,Female,A,84.5,171.1,28.86,127,90,266.6,254.9,91,1,3,Pulmonology,Asthma,12
+161,38,Male,B,91.1,163.9,33.91,174,70,139.5,305.9,87,0,1,General,Heart Disease,5
+162,36,Male,AB,85.8,158.0,34.37,150,87,136.1,293.0,94,1,0,Cardiology,Diabetes,6
+163,74,Male,AB,47.7,173.0,15.94,158,98,71.5,166.9,117,0,3,Cardiology,Asthma,8
+164,38,Male,B,74.4,155.4,30.81,138,86,120.8,,115,1,0,Endocrinology,Heart Disease,9
+165,71,Female,A,84.1,161.5,32.24,145,73,205.4,228.8,112,1,3,Pulmonology,Asthma,10
+166,70,Female,AB,54.5,151.9,23.62,112,75,150.5,196.9,76,0,0,Pulmonology,DIABETES,6
+167,57,Female,AB,92.3,176.4,29.66,163,102,263.6,274.6,114,1,2,General,Hypertension,14
+168,48,Male,A,102.9,,29.81,134,109,159.7,245.7,52,0,2,General,Diabetes,3
+169,30,Male,B,101.9,164.9,37.47,141,90,292.6,128.4,85,0,2,General,Healthy,8
+170,26,Female,AB,103.2,162.8,38.94,116,79,,183.8,93,1,2,Cardiology,Healthy,7
+171,30,Female,O,112.7,164.8,41.5,108,101,148.3,192.2,69,1,0,Endocrinology,Diabetes,4
+172,44,Female,AB,116.9,165.6,42.63,128,96,162.9,304.3,101,1,1,Endocrinology,Hypertension,10
+173,48,Male,A,95.3,161.4,36.58,156,76,89.0,,120,0,1,Endocrinology,Heart Disease,8
+174,35,Male,A,104.2,185.3,30.35,147,78,145.9,262.6,81,0,2,General,Heart Disease,8
+175,25,Male,A,74.3,,32.03,123,95,112.5,251.4,68,1,0,Cardiology,Asthma,3
+176,66,Female,O,105.3,,29.89,111,82,153.1,164.4,89,0,0,General,Diabetes,5
+177,38,Male,A,71.5,182.7,21.42,117,109,193.5,,53,0,0,Endocrinology,Hypertension,8
+178,74,Male,A,,187.9,16.0,158,110,106.6,127.0,63,1,1,Pulmonology,Diabetes,8
+179,75,Male,A,112.3,167.7,39.93,113,95,143.5,226.2,95,1,3,Pulmonology,Hypertension,11
+180,25,Female,AB,107.6,166.6,38.77,178,87,294.9,314.6,59,0,2,Endocrinology,Healthy,10
+181,31,Female,B,91.3,157.5,36.81,119,102,,180.6,89,0,3,Pulmonology,Healthy,4
+182,39,Male,O,109.8,187.2,31.33,152,72,245.3,121.4,103,1,0,Cardiology,Hypertension,10
+183,82,Female,B,76.9,182.1,23.19,176,87,211.8,210.0,98,1,1,Endocrinology,Heart Disease,13
+184,55,Male,B,113.2,186.4,32.58,100,85,71.7,314.0,67,1,0,Pulmonology,Healthy,7
+185,44,Male,AB,62.5,,20.06,121,99,86.4,263.3,60,1,3,Cardiology,Heart Disease,5
+186,31,Female,AB,70.7,,30.6,95,100,239.6,120.7,57,1,0,Cardiology,Diabetes,8
+187,71,Female,O,69.7,173.1,23.26,91,104,143.5,274.9,64,0,2,Pulmonology,Diabetes,4
+188,56,Male,AB,66.7,156.9,27.09,134,102,159.0,311.5,97,1,0,Pulmonology,Asthma,9
+189,63,Male,O,61.5,182.8,18.4,116,83,285.2,138.4,50,1,3,Cardiology,Hypertension,13
+190,71,Female,B,83.2,160.8,32.18,119,66,290.3,150.8,63,0,2,Pulmonology,Heart Disease,7
+191,70,Male,AB,78.7,168.8,27.62,170,79,,248.6,84,0,0,Pulmonology,Diabetes,9
+192,85,Female,A,,164.9,29.46,159,61,273.4,122.6,97,0,0,Cardiology,Healthy,11
+193,45,Male,A,76.6,172.3,25.8,133,95,120.6,215.9,100,1,2,Pulmonology,Healthy,9
+194,52,Male,O,104.9,188.5,29.52,147,94,261.1,134.0,52,0,1,Pulmonology,Healthy,9
+195,32,Male,B,67.4,151.3,29.44,165,83,138.4,147.0,105,1,0,Endocrinology,Healthy,10
+196,82,Female,AB,93.0,155.0,38.71,155,63,279.0,248.0,60,0,1,Endocrinology,Asthma,13
+197,51,Male,AB,117.0,187.0,,175,85,217.2,310.4,89,1,0,Endocrinology,Diabetes,11
+198,77,Male,B,52.5,174.1,17.32,102,108,154.1,158.4,110,1,1,Endocrinology,Heart Disease,10
+199,35,Male,O,64.7,175.0,21.13,136,86,188.2,239.0,92,0,1,Cardiology,Asthma,6
+200,79,Male,AB,111.5,177.2,35.51,148,101,133.2,240.1,112,1,1,Pulmonology,Diabetes,7
+201,57,Male,AB,81.9,158.3,32.68,155,94,81.4,300.7,102,0,3,General,Heart Disease,3
+202,34,Male,B,66.3,172.6,22.26,175,78,257.9,,99,1,0,General,Asthma,11
+203,28,Female,AB,67.9,164.2,25.18,90,69,294.8,313.4,106,0,2,General,Diabetes,6
+204,30,Male,AB,64.3,151.9,27.87,99,73,198.0,180.7,113,1,3,General,Healthy,9
+205,50,Female,AB,89.7,162.6,33.93,173,104,247.8,254.2,98,1,0,Cardiology,Healthy,13
+206,77,Female,AB,117.2,165.7,42.69,92,107,243.7,226.8,53,1,0,Cardiology,Asthma,8
+207,54,Male,AB,97.0,180.6,29.74,145,109,204.6,290.0,55,0,3,Cardiology,Hypertension,7
+208,33,male,AB,48.4,173.7,16.04,165,104,137.1,128.5,109,0,2,Pulmonology,Hypertension,7
+209,80,Female,A,95.3,184.2,28.09,154,69,100.6,244.4,64,1,1,Endocrinology,Hypertension,11
+210,32,Male,O,60.1,174.0,19.85,145,74,88.6,252.3,93,0,0,Pulmonology,Hypertension,5
+211,53,Female,AB,113.2,170.8,38.8,175,109,202.1,158.6,72,0,2,Pulmonology,Hypertension,10
+212,62,Male,O,80.7,,33.12,99,99,225.2,244.1,91,1,3,Pulmonology,Hypertension,9
+213,82,Male,B,61.9,153.3,26.34,115,107,122.1,262.1,88,1,1,Cardiology,Diabetes,8
+214,71,Female,O,56.4,155.2,23.42,125,109,72.3,251.1,64,1,2,General,Diabetes,9
+215,27,Male,B,,175.8,34.75,119,67,199.0,146.2,103,0,0,Cardiology,Healthy,7
+216,59,Female,AB,84.3,153.9,35.59,93,99,184.3,,93,0,0,Cardiology,Diabetes,3
+217,60,Male,A,104.1,187.6,29.58,178,106,182.4,199.2,91,1,3,Endocrinology,Diabetes,9
+218,38,Male,A,53.0,,16.75,160,65,999.0,120.4,112,0,0,General,Heart Disease,7
+219,18,Female,B,64.7,152.8,27.71,133,95,272.3,232.9,69,1,0,Endocrinology,Diabetes,7
+220,72,Male,A,98.9,176.3,31.82,110,86,211.9,155.3,116,1,1,Cardiology,Hypertension,8
+221,19,Female,O,94.1,164.6,34.73,157,71,,245.1,60,0,2,Endocrinology,Asthma,5
+222,19,Female,O,110.9,154.0,46.76,137,107,250.4,243.8,55,1,3,General,Healthy,10
+223,36,Male,A,113.9,166.0,41.33,147,80,82.0,168.8,62,0,1,Endocrinology,Hypertension,4
+224,85,Male,AB,90.1,153.6,38.19,143,104,229.7,293.3,99,1,1,General,Heart Disease,13
+225,40,Female,A,99.7,177.5,31.64,144,93,166.9,126.9,84,1,1,General,Hypertension,10
+226,25,Female,O,53.5,153.8,,163,74,169.9,195.9,90,1,0,Pulmonology,Hypertension,9
+227,36,Female,B,99.9,177.4,31.74,125,109,218.6,267.3,113,1,2,Cardiology,Healthy,10
+228,62,Female,AB,92.9,165.5,33.92,149,61,101.3,258.7,119,1,1,Endocrinology,Asthma,9
+229,28,Female,B,93.2,174.6,30.57,173,74,172.3,239.0,95,1,0,Cardiology,Hypertension,11
+230,64,Male,B,52.7,186.8,15.1,134,106,159.2,144.8,92,0,1,Pulmonology,Asthma,9
+231,56,Male,B,102.9,170.3,35.48,162,67,246.9,312.1,56,1,0,General,Hypertension,15
+232,70,Male,AB,60.3,180.7,,99,108,241.8,206.9,97,1,3,Endocrinology,Asthma,9
+233,71,Female,A,45.3,165.3,,167,65,,271.2,79,1,0,Endocrinology,Healthy,14
+234,67,Female,O,57.4,185.6,16.66,138,66,171.1,,108,0,1,Cardiology,Asthma,8
+235,19,Female,B,46.0,163.7,17.17,156,80,249.4,297.4,56,0,3,Endocrinology,Hypertension,10
+236,41,Male,A,76.8,156.5,31.36,155,87,293.8,215.7,55,0,2,Cardiology,Healthy,12
+237,21,Male,AB,85.0,183.3,,92,104,143.0,169.6,89,0,2,Endocrinology,Heart Disease,0
+238,42,Female,O,113.1,178.1,,133,67,216.3,319.6,96,1,2,Cardiology,Heart Disease,9
+239,25,Female,B,82.7,182.8,24.75,123,81,267.1,280.8,115,1,3,General,Hypertension,8
+240,70,Female,B,111.0,174.4,36.49,135,68,97.8,205.1,89,1,0,Cardiology,Asthma,9
+241,40,Female,A,65.7,163.3,24.64,131,77,115.9,260.5,76,1,3,Pulmonology,Hypertension,8
+242,52,Male,B,79.9,186.7,22.92,151,72,113.6,221.4,81,1,1,Pulmonology,Healthy,7
+243,25,Male,B,103.5,162.0,39.44,177,81,82.4,218.7,94,1,3,Pulmonology,Diabetes,6
+244,57,Female,A,74.7,160.7,28.93,106,68,243.5,162.0,86,0,0,Endocrinology,Healthy,10
+245,37,Male,B,109.7,,46.26,139,73,87.0,218.9,85,1,2,Endocrinology,Heart Disease,6
+246,48,Female,A,,183.9,34.83,93,102,126.4,,50,1,0,Cardiology,Hypertension,6
+247,21,Male,B,84.7,155.1,35.21,159,67,,240.0,108,1,2,Cardiology,Healthy,9
+248,29,Male,A,48.4,153.4,20.57,97,79,187.2,143.8,68,0,0,General,Heart Disease,2
+249,80,Female,AB,68.3,178.5,21.44,145,101,244.9,304.9,120,1,3,General,Diabetes,10
+250,78,Male,A,101.1,153.5,42.91,146,62,185.4,259.9,57,0,3,General,Asthma,10
+251,36,Male,AB,102.7,172.1,,142,103,242.2,,81,1,0,Endocrinology,Hypertension,8
+252,32,Male,B,62.5,,23.44,166,105,167.1,293.6,100,0,2,Endocrinology,Heart Disease,6
+253,62,Male,O,58.4,168.4,20.59,101,67,,211.9,62,0,2,Cardiology,Diabetes,7
+254,39,Male,B,90.3,,39.76,156,108,100.0,182.9,79,1,2,Pulmonology,Hypertension,5
+255,45,Male,B,56.8,164.5,20.99,139,91,291.0,231.2,101,1,3,Pulmonology,Heart Disease,11
+256,50,Female,B,79.1,176.6,25.36,90,105,294.1,235.4,58,0,2,Endocrinology,Diabetes,10
+257,29,Male,A,114.3,168.3,40.35,97,95,257.8,308.4,110,0,1,Endocrinology,Healthy,7
+258,54,Male,O,110.8,156.4,45.3,98,87,161.2,,76,0,1,Endocrinology,Healthy,4
+259,73,Male,A,53.8,167.6,19.15,91,68,107.2,247.5,71,1,2,Pulmonology,Healthy,8
+260,38,Female,B,79.1,177.7,25.05,165,108,89.7,254.3,61,1,3,General,Heart Disease,8
+261,36,Male,O,96.8,188.1,27.36,139,65,110.9,283.1,68,0,2,Pulmonology,Diabetes,5
+262,21,Male,B,102.7,173.1,34.27,102,107,144.7,256.0,116,0,0,General,Healthy,5
+263,55,Male,AB,97.7,156.4,39.94,104,72,180.4,175.2,76,1,1,Endocrinology,Healthy,7
+264,21,Female,AB,108.8,173.1,36.31,146,109,236.9,302.6,99,0,1,Pulmonology,Heart Disease,5
+265,50,Female,O,51.4,175.0,16.78,152,61,78.7,154.9,50,0,1,Cardiology,Heart Disease,5
+266,83,Female,O,83.1,164.5,30.71,102,84,146.4,270.5,100,0,3,Endocrinology,Hypertension,4
+267,24,Male,AB,99.6,184.1,29.39,118,72,,259.9,50,0,2,Endocrinology,Healthy,8
+268,58,Female,B,,166.8,22.97,168,62,214.1,283.5,113,0,0,Endocrinology,Healthy,11
+269,48,Male,O,63.0,185.1,18.39,143,95,121.4,,101,1,3,Cardiology,Hypertension,10
+270,35,Female,O,,159.1,37.49,116,64,214.7,313.5,105,0,1,General,Diabetes,5
+271,42,Female,AB,49.9,175.6,16.18,152,106,162.5,154.4,57,1,2,Endocrinology,DIABETES,11
+272,31,Male,O,,167.7,35.74,173,62,80.1,196.2,66,1,0,Cardiology,Asthma,9
+273,75,Female,O,58.9,186.7,16.9,151,94,172.9,136.9,107,1,3,Pulmonology,Healthy,10
+274,41,Male,B,101.7,168.0,36.03,164,62,281.7,121.1,51,1,0,Endocrinology,Healthy,12
+275,71,Female,B,92.9,,36.38,147,68,93.5,152.4,67,1,3,Pulmonology,Healthy,9
+276,47,Female,O,56.8,167.7,20.2,144,80,209.0,303.1,74,1,2,Pulmonology,Hypertension,12
+277,48,Male,O,87.8,183.6,26.05,173,74,234.5,130.1,57,1,3,Endocrinology,Asthma,11
+278,77,Female,A,107.0,179.7,33.14,90,109,99.1,303.1,59,1,2,Endocrinology,Healthy,6
+279,60,Female,AB,65.1,189.5,18.13,102,105,259.5,303.7,60,1,1,Endocrinology,Hypertension,9
+280,68,Male,AB,79.1,162.7,29.88,146,98,244.7,286.3,75,1,1,Endocrinology,Diabetes,12
+281,26,Male,O,110.6,172.7,37.08,95,97,103.6,233.8,80,0,1,General,Heart Disease,2
+282,53,Male,O,64.7,185.4,18.82,109,68,197.0,,96,0,3,Cardiology,Diabetes,5
+283,75,Male,B,93.4,183.5,27.74,93,77,168.0,212.3,88,0,2,Cardiology,Heart Disease,7
+284,20,Female,AB,,180.3,30.98,168,93,89.1,242.1,89,0,0,Endocrinology,Asthma,6
+285,65,Male,O,50.9,179.9,15.73,179,110,82.5,193.6,66,1,0,Cardiology,Heart Disease,9
+286,41,Male,B,51.8,155.1,21.53,111,92,105.8,,113,0,2,Cardiology,Heart Disease,4
+287,46,Female,B,93.7,165.1,34.38,156,61,140.6,174.3,114,1,1,General,Asthma,9
+288,65,Female,O,45.9,183.8,13.59,127,90,94.5,142.6,56,1,3,General,Asthma,7
+289,84,Male,A,51.3,189.6,14.27,146,92,127.9,282.8,55,1,1,General,Asthma,10
+290,50,Male,AB,84.2,175.9,27.21,156,63,209.5,191.2,75,0,3,Pulmonology,Heart Disease,6
+291,27,Male,AB,63.9,153.6,27.08,93,103,,199.6,79,0,0,Pulmonology,Asthma,0
+292,51,Male,O,113.1,152.0,48.95,121,108,141.2,276.0,51,0,2,Pulmonology,Diabetes,4
+293,31,Female,AB,99.3,180.6,30.44,96,95,131.8,277.3,84,1,1,General,Hypertension,3
+294,19,Female,O,45.7,162.9,17.22,105,84,88.8,311.4,89,0,1,Pulmonology,Asthma,0
+295,51,Female,AB,,184.0,14.95,107,97,100.1,128.3,113,1,2,Pulmonology,Diabetes,2
+296,60,Female,AB,91.3,155.2,37.9,155,68,273.9,220.4,83,1,3,Pulmonology,Diabetes,11
+297,55,Male,AB,46.3,173.6,15.36,115,62,220.9,318.2,73,0,0,General,Healthy,7
+298,59,Female,A,111.6,189.0,31.24,152,71,,281.5,100,1,2,Cardiology,Healthy,11
+299,68,Female,A,47.0,,17.54,119,86,162.9,278.5,68,0,3,General,Asthma,6
+300,20,Female,O,95.9,175.5,31.14,100,98,223.7,131.6,104,0,3,Pulmonology,Diabetes,6
+301,29,Female,O,109.7,178.9,34.28,150,96,236.8,131.9,50,0,0,General,Diabetes,6
+302,46,Female,AB,52.3,164.7,19.28,118,70,224.5,178.5,77,1,1,Cardiology,Diabetes,7
+303,32,Male,AB,110.1,189.7,30.6,132,72,276.0,294.0,54,1,3,Endocrinology,Hypertension,8
+304,50,Male,AB,80.4,181.3,24.46,124,64,97.7,168.2,73,0,1,Endocrinology,Healthy,1
+305,60,Male,B,67.2,175.7,,165,105,167.8,310.8,101,1,0,General,Asthma,13
+306,45,female,AB,116.6,177.7,36.93,99,67,258.9,155.6,65,1,0,Endocrinology,Healthy,8
+307,25,Male,B,112.8,156.9,45.82,156,98,102.2,288.7,69,0,2,Pulmonology,Hypertension,5
+308,75,Female,AB,95.3,158.8,37.79,93,74,229.3,126.1,108,1,3,General,Asthma,8
+309,21,Male,O,70.0,169.0,24.51,99,65,295.9,159.9,59,1,1,Endocrinology,Healthy,10
+310,35,Female,B,53.1,,16.68,130,61,282.1,156.8,91,0,1,General,Asthma,10
+311,78,Female,A,59.2,182.3,,128,64,105.1,280.8,107,0,1,General,Asthma,3
+312,52,Male,B,87.8,159.1,34.69,167,75,120.9,285.5,67,0,3,Pulmonology,Hypertension,4
+313,38,Female,B,110.9,167.8,39.39,117,67,70.1,203.5,69,1,2,Pulmonology,Heart Disease,6
+314,21,Female,O,51.7,187.2,14.75,108,66,250.2,238.4,86,1,3,Cardiology,Healthy,7
+315,85,Female,A,85.7,151.8,37.19,92,79,139.8,196.1,109,0,3,Endocrinology,Diabetes,4
+316,76,Male,AB,64.7,173.0,21.62,151,77,205.1,247.9,51,1,2,Endocrinology,Asthma,13
+317,31,Female,B,106.0,181.5,32.18,163,106,246.0,182.0,90,1,2,General,Healthy,14
+318,48,Male,B,50.7,,21.89,111,73,84.4,217.9,83,0,1,Cardiology,Asthma,4
+319,81,Female,O,106.4,155.9,43.78,134,98,297.3,218.3,54,1,1,Pulmonology,Hypertension,15
+320,38,Male,O,59.5,169.2,20.78,179,105,267.5,277.9,53,0,1,General,Asthma,9
+321,52,Male,AB,60.8,173.3,20.24,131,63,169.6,308.5,108,0,2,Endocrinology,Healthy,9
+322,39,Female,AB,110.8,154.0,46.72,92,79,,239.3,118,0,3,General,Hypertension,8
+323,42,Male,AB,102.1,189.3,28.49,167,81,246.1,170.8,89,0,2,Endocrinology,Diabetes,10
+324,51,Male,O,54.7,157.8,21.97,171,73,126.2,196.1,78,0,2,Cardiology,Heart Disease,4
+325,72,Female,O,47.9,168.7,16.83,114,88,274.1,238.2,66,1,1,Endocrinology,Healthy,13
+326,0,Male,AB,50.1,174.3,16.49,180,64,298.2,283.3,75,1,3,Cardiology,Hypertension,15
+327,37,Female,A,78.2,181.8,23.66,125,86,216.7,251.4,117,0,2,Cardiology,Hypertension,6
+328,80,Female,AB,118.4,183.3,35.24,117,70,100.1,238.1,77,1,1,Cardiology,Diabetes,6
+329,39,Female,O,48.9,184.9,14.3,137,93,298.2,155.7,71,0,1,General,Hypertension,9
+330,62,Male,O,104.4,,34.64,115,96,91.6,285.4,74,0,1,Cardiology,Healthy,2
+331,49,male,A,87.2,168.5,30.71,91,92,166.6,255.8,64,0,0,Endocrinology,Hypertension,3
+332,34,Male,A,46.4,156.1,19.04,102,96,116.9,130.5,115,0,1,Pulmonology,Asthma,1
+333,55,Male,B,70.8,160.2,27.59,107,98,235.1,148.3,117,1,2,Endocrinology,Hypertension,9
+334,21,Male,O,104.4,163.9,38.86,110,61,221.2,221.1,118,1,2,Cardiology,Heart Disease,4
+335,53,Male,A,103.6,168.1,36.66,180,107,,263.7,91,0,0,Pulmonology,Healthy,13
+336,67,Female,B,79.2,,31.57,144,88,,146.7,117,1,2,Pulmonology,Hypertension,12
+337,76,Female,A,117.7,179.6,,172,84,72.0,,114,1,3,Pulmonology,Hypertension,7
+338,19,Male,AB,98.0,181.3,29.81,102,98,173.2,137.0,108,1,1,Pulmonology,Healthy,5
+339,75,Female,AB,112.8,162.3,42.82,93,84,183.6,191.4,56,1,3,Cardiology,Hypertension,8
+340,76,Male,O,45.8,159.1,18.09,167,70,255.6,291.8,67,1,0,General,Asthma,15
+341,76,Male,B,79.0,160.2,30.78,159,93,230.8,228.1,101,0,0,Cardiology,Healthy,13
+342,66,Male,O,57.1,,18.27,93,70,93.6,153.0,101,0,0,General,Heart Disease,1
+343,54,Female,A,95.5,160.2,37.21,98,98,282.3,230.8,113,1,1,General,Asthma,8
+344,27,Female,B,76.0,156.5,31.03,96,69,85.1,299.7,59,0,1,Pulmonology,Healthy,0
+345,36,Male,A,,189.0,20.52,105,88,999.0,268.1,105,0,3,Endocrinology,Diabetes,2
+346,22,Male,AB,78.6,187.5,22.36,147,82,234.1,173.8,78,0,0,General,Hypertension,7
+347,67,Male,A,111.8,181.1,34.09,142,89,232.8,280.2,61,0,3,Cardiology,Healthy,8
+348,51,Male,A,63.7,158.8,25.26,92,77,278.4,,76,1,3,Endocrinology,Hypertension,11
+349,78,Female,B,117.2,156.3,47.97,139,64,204.5,303.1,69,0,3,Endocrinology,Heart Disease,8
+350,58,Female,O,80.1,153.1,34.17,120,94,137.3,214.5,55,1,1,Cardiology,Asthma,7
+351,32,Male,O,,185.0,,172,80,280.7,132.1,85,0,2,Cardiology,Heart Disease,8
+352,80,Male,AB,96.7,,32.01,134,85,125.1,200.2,69,1,1,Pulmonology,Diabetes,9
+353,66,Female,AB,54.7,179.2,17.03,117,98,272.3,193.7,54,0,1,Cardiology,Healthy,9
+354,34,Female,A,63.8,171.4,21.72,126,85,229.7,146.3,112,0,2,Pulmonology,Hypertension,9
+355,54,Male,AB,87.6,175.4,28.47,116,91,257.6,279.4,100,0,2,General,Asthma,8
+356,74,Male,B,61.1,184.4,17.97,109,95,,144.8,82,0,3,Cardiology,Asthma,9
+357,34,Male,O,45.2,179.5,,162,92,223.4,231.6,95,1,0,Endocrinology,Healthy,12
+358,73,Female,AB,50.9,186.7,14.6,104,92,,301.7,68,0,1,General,Hypertension,8
+359,28,Male,O,113.1,153.5,48.0,166,99,213.9,264.2,85,1,2,Cardiology,Healthy,9
+360,61,Male,B,78.9,157.3,31.89,132,74,92.5,150.2,57,1,3,Pulmonology,Hypertension,9
+361,55,Male,AB,94.2,,27.98,132,105,,,113,0,3,General,Hypertension,6
+362,54,Male,A,56.1,,,101,80,284.3,122.4,100,0,3,Pulmonology,Asthma,7
+363,31,Male,AB,119.4,169.9,41.36,92,60,181.9,285.4,62,0,0,Endocrinology,Asthma,2
+364,53,Male,A,65.4,153.3,,126,84,228.4,,67,0,2,Pulmonology,Hypertension,8
+365,52,Female,B,76.8,166.7,27.64,153,66,262.6,165.6,91,1,0,Pulmonology,Healthy,12
+366,26,Female,B,45.9,154.0,19.35,134,63,195.6,122.4,58,1,1,Endocrinology,Heart Disease,10
+367,57,Female,A,92.4,153.7,39.11,133,82,142.6,121.3,53,0,0,General,Hypertension,9
+368,50,Male,AB,106.8,167.3,38.16,155,67,161.1,202.2,103,0,3,Endocrinology,Diabetes,6
+369,26,Male,O,92.2,,39.8,110,104,219.1,191.6,112,1,0,Cardiology,Healthy,5
+370,0,Female,AB,87.4,175.4,28.41,164,86,292.4,150.5,59,1,0,Pulmonology,Healthy,14
+371,83,Female,AB,109.3,,47.75,132,102,144.9,312.6,81,1,2,Cardiology,Asthma,12
+372,41,Female,A,76.5,167.5,27.27,120,110,118.6,250.8,93,1,2,Endocrinology,Hypertension,5
+373,82,Female,O,107.0,173.3,35.63,113,60,83.6,308.8,118,0,1,Pulmonology,Heart Disease,2
+374,64,Female,B,98.2,181.9,29.68,156,73,167.9,299.2,106,0,0,Pulmonology,Asthma,8
+375,35,Female,AB,100.0,156.3,40.93,172,70,229.5,276.8,95,1,3,Cardiology,Asthma,13
+376,33,Female,AB,96.3,166.9,34.57,147,86,81.9,210.9,79,1,1,Pulmonology,Healthy,5
+377,45,Male,O,85.6,150.9,37.59,107,103,267.7,219.2,91,0,1,Cardiology,Healthy,8
+378,72,Male,B,52.0,169.1,18.19,170,72,241.1,177.9,82,0,1,Cardiology,Diabetes,9
+379,46,Female,AB,71.9,181.1,21.92,165,71,119.2,,54,0,0,Endocrinology,Healthy,4
+380,58,Male,A,103.3,177.1,32.94,98,100,93.1,177.8,81,1,3,General,Diabetes,4
+381,44,Female,A,80.1,168.4,28.25,115,96,223.1,,59,1,3,Pulmonology,Diabetes,7
+382,46,Male,O,108.2,179.7,33.51,149,61,188.4,272.3,55,1,3,Endocrinology,Heart Disease,9
+383,41,Female,A,85.1,,30.73,126,110,238.3,308.3,81,1,0,Cardiology,Hypertension,10
+384,41,Male,B,79.7,172.0,26.94,177,74,224.1,,90,1,3,Endocrinology,Asthma,10
+385,65,Male,B,77.0,163.6,28.77,171,92,207.2,283.4,63,1,0,Pulmonology,Diabetes,9
+386,84,Female,AB,61.4,177.6,19.47,142,93,123.7,,99,1,1,General,Diabetes,10
+387,65,Female,B,,162.8,20.6,134,87,118.2,130.0,115,1,0,General,Diabetes,10
+388,39,Female,O,58.6,156.4,23.96,178,106,283.4,286.9,86,1,2,Pulmonology,Heart Disease,16
+389,75,Female,A,101.2,164.1,37.58,115,75,176.1,307.0,72,1,1,Pulmonology,Heart Disease,9
+390,67,Male,AB,102.9,,32.37,138,110,218.9,,89,0,1,Cardiology,Heart Disease,7
+391,84,Male,AB,100.1,,29.83,108,78,182.9,296.6,111,1,2,Cardiology,Diabetes,8
+392,84,male,AB,73.9,176.3,23.78,148,94,249.2,,102,0,2,Endocrinology,Heart Disease,11
+393,54,Female,B,74.0,155.2,30.72,134,109,182.7,,114,0,1,Cardiology,Diabetes,8
+394,45,Female,AB,105.1,170.9,,95,110,113.0,285.4,77,0,3,Cardiology,Heart Disease,3
+395,20,Male,O,51.5,182.1,15.53,178,99,272.1,197.7,61,0,2,Endocrinology,Heart Disease,8
+396,81,Male,A,100.6,160.9,38.86,119,105,174.2,122.1,73,0,2,Endocrinology,Asthma,6
+397,78,Female,B,,,41.35,123,105,70.7,315.7,50,0,0,Endocrinology,Asthma,4
+398,51,Female,B,89.3,158.8,35.41,147,73,,273.6,87,0,3,Cardiology,Asthma,7
+399,58,Male,B,96.3,182.0,,99,70,286.9,282.3,52,1,0,Endocrinology,Healthy,11
+400,73,Female,AB,98.0,151.2,42.87,169,107,,213.7,78,0,3,Pulmonology,Heart Disease,7
+401,35,Male,B,104.3,181.1,31.8,180,97,220.1,189.7,101,1,3,Cardiology,Asthma,9
+402,71,Female,AB,97.6,174.5,,173,108,147.4,215.6,101,1,2,Cardiology,Asthma,12
+403,18,Female,A,68.2,155.5,28.2,127,84,287.4,170.6,114,0,3,Endocrinology,Heart Disease,5
+404,48,Female,A,91.9,163.2,34.5,139,89,,269.9,72,0,1,Cardiology,Healthy,7
+405,65,Female,O,54.0,183.3,16.07,135,86,84.3,122.4,58,1,0,Endocrinology,Heart Disease,9
+406,46,Male,A,91.4,184.1,26.97,168,69,208.8,201.7,81,1,0,General,Healthy,9
+407,83,Female,AB,70.4,167.3,25.15,136,99,,126.7,59,1,2,Endocrinology,Hypertension,11
+408,73,Female,O,,162.7,31.35,107,87,151.1,206.9,53,0,1,Cardiology,Asthma,8
+409,83,Male,AB,116.9,182.1,35.25,140,74,,254.3,87,0,1,Endocrinology,Healthy,14
+410,79,Male,O,53.1,165.7,19.34,180,71,264.2,216.1,117,0,0,Pulmonology,Hypertension,15
+411,73,Male,AB,93.4,184.9,27.32,138,64,154.6,150.0,58,0,3,Endocrinology,Hypertension,6
+412,27,Male,A,69.8,172.6,23.43,155,85,160.4,253.0,109,0,3,Endocrinology,Diabetes,6
+413,60,Male,AB,106.3,183.9,31.43,102,94,98.1,264.6,84,1,1,Pulmonology,Heart Disease,6
+414,36,Male,AB,114.6,190.0,,119,89,276.5,239.3,77,1,3,Pulmonology,Heart Disease,12
+415,61,Female,A,97.0,162.0,36.96,154,105,109.7,234.9,90,1,3,Pulmonology,Heart Disease,6
+416,31,Male,B,79.5,164.2,29.49,102,64,266.8,156.2,84,1,2,Pulmonology,Hypertension,12
+417,76,Female,B,47.7,186.6,13.7,128,70,245.7,235.9,83,1,3,Cardiology,Heart Disease,13
+418,58,Female,O,103.0,172.3,34.69,156,75,110.0,180.3,84,0,2,Endocrinology,Heart Disease,8
+419,47,Male,AB,105.1,,32.84,155,94,201.1,214.1,70,0,0,General,Asthma,7
+420,57,Male,B,101.5,169.7,35.25,119,86,275.6,201.5,120,1,0,General,Diabetes,9
+421,44,Female,AB,60.4,175.5,19.61,174,63,123.0,213.3,115,1,3,General,Hypertension,11
+422,60,Female,B,90.1,166.7,32.42,173,70,229.8,164.4,104,0,2,Pulmonology,Heart Disease,13
+423,34,Male,A,52.6,180.7,16.11,105,78,216.5,133.4,79,1,1,Cardiology,Healthy,5
+424,35,Male,AB,50.3,179.1,15.68,95,82,145.0,295.1,118,1,2,General,Heart Disease,4
+425,59,Male,A,95.8,171.8,32.46,108,91,218.3,254.3,94,0,2,General,Healthy,7
+426,61,female,A,88.1,182.1,,143,86,,195.7,79,1,1,Pulmonology,Hypertension,9
+427,26,Male,B,49.0,171.6,16.64,168,95,115.3,,96,0,0,Pulmonology,Healthy,4
+428,54,Female,O,57.5,162.7,21.72,149,67,181.9,198.5,80,0,2,Cardiology,Asthma,6
+429,70,Female,AB,93.9,160.9,36.27,160,84,292.6,275.5,58,0,2,Endocrinology,Heart Disease,10
+430,36,Female,AB,118.9,184.7,34.85,122,93,114.0,273.6,61,1,1,Endocrinology,Heart Disease,5
+431,19,Male,A,96.0,158.8,38.07,144,94,237.9,180.1,103,0,2,Cardiology,Heart Disease,7
+432,67,Female,B,67.8,176.9,21.67,90,73,184.4,155.7,97,1,2,Pulmonology,Hypertension,7
+433,61,Female,AB,46.7,165.4,17.07,151,101,171.4,197.3,76,0,2,Endocrinology,Heart Disease,8
+434,60,Female,O,117.0,150.9,51.38,111,64,207.3,223.3,115,0,3,General,Healthy,9
+435,44,Female,O,,160.2,40.52,170,96,155.8,239.7,104,0,3,Cardiology,Diabetes,5
+436,24,Male,O,,178.8,28.21,135,110,292.5,211.3,51,1,3,General,Healthy,12
+437,33,Male,AB,,178.7,30.72,140,62,201.0,291.5,116,0,2,Pulmonology,Hypertension,6
+438,51,Male,AB,,168.1,,153,103,299.4,200.1,118,0,0,Cardiology,Heart Disease,11
+439,34,Female,A,101.1,187.1,28.88,146,100,203.5,165.4,57,1,2,General,Hypertension,12
+440,67,Female,A,71.4,162.1,27.17,155,71,210.2,191.7,72,1,2,Pulmonology,Hypertension,9
+441,83,Female,A,98.6,186.6,28.32,119,83,273.7,227.5,83,1,3,Pulmonology,Healthy,10
+442,43,Female,A,60.7,150.1,26.94,90,79,287.6,271.1,79,1,2,General,Hypertension,12
+443,55,Male,B,80.1,,30.52,174,102,259.0,160.4,62,0,0,General,Diabetes,11
+444,57,Female,B,62.8,176.0,20.27,132,79,215.7,312.6,73,1,2,General,Diabetes,11
+445,21,Female,O,91.0,158.1,36.41,130,81,169.2,173.4,79,1,0,Endocrinology,Heart Disease,6
+446,65,Female,A,75.7,,22.07,126,98,258.6,128.4,59,0,1,Pulmonology,Diabetes,8
+447,76,Female,O,77.1,,32.43,101,90,206.1,256.8,105,1,3,Pulmonology,Asthma,11
+448,65,male,B,114.4,179.5,35.51,165,63,130.4,154.3,58,0,3,General,Heart Disease,8
+449,77,Male,A,88.9,169.4,,179,66,102.4,197.8,66,0,2,Pulmonology,Asthma,10
+450,68,Male,A,117.3,158.1,46.93,178,89,85.7,268.8,117,1,2,Endocrinology,Healthy,10
+451,52,Female,B,90.0,166.6,32.43,119,81,,223.6,113,1,2,General,Hypertension,7
+452,38,Male,AB,61.8,162.9,23.29,174,83,73.1,293.8,57,1,1,Cardiology,Heart Disease,8
+453,70,Female,B,,168.5,35.47,159,85,,301.5,60,0,1,Pulmonology,Hypertension,8
+454,26,Female,B,53.4,158.0,21.39,144,82,260.4,,78,1,3,Cardiology,Diabetes,13
+455,29,Female,A,47.1,178.4,14.8,131,99,160.1,288.5,108,0,3,Endocrinology,Asthma,6
+456,84,Male,A,,175.1,16.73,156,104,248.7,282.1,96,1,2,Pulmonology,Diabetes,16
+457,33,Female,AB,56.5,163.0,21.27,170,92,92.8,,98,1,3,General,Asthma,8
+458,70,Male,B,107.0,164.0,39.78,169,77,97.3,302.5,76,1,0,Pulmonology,Asthma,12
+459,67,Female,B,45.3,160.4,17.61,173,105,222.8,194.8,94,1,0,Endocrinology,Diabetes,11
+460,22,Female,B,88.4,182.2,26.63,136,91,251.8,309.9,117,1,2,Endocrinology,Heart Disease,9
+461,70,Female,B,109.1,170.0,37.75,98,71,99.9,299.2,100,1,0,Pulmonology,Diabetes,4
+462,78,Male,B,95.9,180.0,29.6,172,110,246.7,152.9,60,1,0,General,Diabetes,16
+463,67,Female,AB,105.0,,31.53,134,62,153.0,317.8,88,1,1,Endocrinology,Healthy,8
+464,71,Male,O,109.1,188.5,30.7,98,76,86.8,187.9,81,0,0,Pulmonology,Diabetes,4
+465,57,Male,B,54.8,180.0,16.91,175,98,278.4,288.7,94,1,2,Endocrinology,Hypertension,15
+466,54,Male,O,107.0,157.7,43.02,126,107,170.7,129.4,64,0,1,Pulmonology,Asthma,4
+467,72,Male,O,82.9,164.2,30.75,150,83,102.4,160.9,110,1,2,Cardiology,Hypertension,5
+468,83,Female,AB,94.3,183.8,27.91,138,89,203.5,285.7,70,1,1,General,Hypertension,11
+469,47,Female,B,69.0,,21.49,165,108,86.6,134.2,118,0,2,General,Hypertension,4
+470,49,Male,O,85.2,155.2,35.37,129,110,126.7,,78,0,3,Endocrinology,Asthma,6
+471,25,Female,A,75.4,161.8,28.8,150,71,195.4,232.1,74,0,2,Pulmonology,Diabetes,5
+472,72,Male,O,113.6,154.1,47.84,104,105,278.0,176.8,114,0,2,Endocrinology,Healthy,10
+473,65,Male,O,71.8,168.8,25.2,171,102,,,64,1,1,Endocrinology,Diabetes,8
+474,75,Female,A,117.1,150.3,51.84,150,72,245.7,196.2,109,0,0,Endocrinology,Healthy,11
+475,47,Male,O,63.2,152.8,27.07,164,69,193.3,262.9,115,1,2,General,Hypertension,13
+476,42,Male,B,49.0,177.5,15.55,117,68,198.3,,103,1,1,Cardiology,Diabetes,6
+477,30,Male,AB,47.0,162.5,17.8,174,68,273.0,195.7,114,0,2,Pulmonology,Asthma,13
+478,25,Male,AB,85.2,154.8,,134,87,98.0,134.3,96,1,3,General,Healthy,7
+479,45,Female,O,113.1,187.6,32.14,124,71,,233.4,111,1,3,General,Hypertension,9
+480,64,Male,O,63.6,150.1,28.23,163,92,249.1,198.3,68,0,2,Cardiology,Diabetes,12
+481,43,Male,B,87.5,165.3,32.02,128,71,71.8,298.4,106,1,0,Pulmonology,Diabetes,4
+482,85,Female,A,115.0,170.9,39.37,94,93,75.6,136.2,118,0,1,Pulmonology,Hypertension,2
+483,67,Male,B,57.3,152.5,24.64,116,61,,140.5,82,1,2,Cardiology,Hypertension,7
+484,81,Female,O,77.7,185.9,22.48,171,61,78.5,206.1,59,1,0,Pulmonology,Hypertension,11
+485,22,Female,A,63.9,174.0,21.11,148,88,279.6,141.5,93,1,0,Cardiology,Asthma,12
+486,31,Male,B,76.9,177.8,,147,85,150.5,153.3,110,0,2,Cardiology,Heart Disease,5
+487,73,Female,AB,105.5,162.1,,153,70,101.5,192.6,57,1,1,Pulmonology,Diabetes,6
+488,38,Male,A,107.7,188.7,30.25,129,87,185.5,292.4,112,0,3,Endocrinology,Diabetes,6
+489,70,Female,B,78.1,151.8,,103,77,217.5,317.7,119,0,3,Pulmonology,Asthma,8
+490,57,Female,O,,165.7,26.81,98,71,155.8,295.2,92,0,1,General,Diabetes,2
+491,70,Female,AB,111.1,168.7,39.04,158,100,291.0,137.1,74,1,0,Cardiology,Hypertension,17
+492,25,Female,O,87.9,154.8,36.68,108,67,94.4,132.6,94,0,3,Pulmonology,Hypertension,1
+493,43,Female,B,113.3,171.1,38.7,103,93,132.8,208.7,56,1,0,Cardiology,Hypertension,5
+494,26,Female,AB,85.0,186.9,24.33,118,62,209.8,188.3,98,1,3,Endocrinology,Asthma,9
+495,78,Female,O,81.0,170.2,27.96,155,110,84.3,228.4,108,0,1,Pulmonology,Diabetes,3
+496,67,Male,O,,169.4,37.36,115,89,228.7,152.7,116,0,2,General,Hypertension,8
+497,48,female,B,59.5,185.1,17.37,130,65,95.7,163.5,92,0,0,Endocrinology,Asthma,2
+498,43,Male,B,80.3,163.2,30.15,129,95,201.4,126.1,95,1,3,Cardiology,Heart Disease,9
+499,18,Female,A,94.2,188.3,,111,73,99.0,292.4,98,1,3,General,Heart Disease,2
+500,50,Male,A,,159.6,31.29,108,106,241.2,145.5,73,1,0,Pulmonology,Heart Disease,10
+501,64,Male,B,94.0,185.8,27.23,171,64,213.1,319.7,92,1,0,Endocrinology,Healthy,9
+502,49,Male,O,98.0,183.6,29.07,96,61,234.6,240.4,66,0,0,Cardiology,Healthy,4
+503,32,Male,B,99.2,185.9,28.7,97,98,237.4,164.4,105,1,3,Pulmonology,Heart Disease,8
+504,21,Female,B,106.1,189.5,29.55,130,74,,312.4,91,1,2,General,Hypertension,6
+505,48,Female,AB,62.4,175.5,,152,63,299.8,187.6,90,1,3,Cardiology,Diabetes,12
+506,69,Female,AB,93.6,177.1,29.84,144,92,126.2,164.0,116,1,0,Endocrinology,Asthma,7
+507,66,Female,O,100.3,163.1,,113,104,154.7,216.3,92,0,1,Pulmonology,Hypertension,6
+508,35,Male,B,68.8,160.0,26.87,165,108,275.8,,68,1,0,Endocrinology,Asthma,11
+509,36,Female,A,93.6,188.8,26.26,179,91,155.4,139.4,117,1,1,Endocrinology,Heart Disease,12
+510,60,Male,O,98.0,189.7,,164,80,212.4,276.0,56,0,3,Pulmonology,Asthma,8
+511,73,Male,AB,106.4,177.4,33.81,92,107,232.5,181.7,94,0,2,General,Hypertension,7
+512,70,Male,AB,88.6,185.1,25.86,124,110,217.2,234.5,117,0,2,Pulmonology,Heart Disease,11
+513,57,Male,AB,,166.6,35.56,155,107,196.7,157.5,117,1,2,Endocrinology,Heart Disease,9
+514,43,Male,O,63.3,175.2,20.62,95,68,282.7,,85,1,1,Endocrinology,Diabetes,11
+515,76,Female,B,91.2,,39.63,117,100,163.6,284.0,95,0,0,Endocrinology,Heart Disease,6
+516,60,Female,AB,95.4,176.6,30.59,120,79,70.6,290.7,102,1,1,General,Heart Disease,3
+517,30,Female,AB,78.6,160.4,30.55,125,75,259.7,204.9,79,0,1,Endocrinology,Diabetes,6
+518,80,Female,AB,100.2,171.1,34.23,139,84,243.2,208.0,108,1,3,Cardiology,Healthy,13
+519,30,Female,AB,,164.9,21.55,160,98,299.2,181.9,82,0,2,Pulmonology,Diabetes,11
+520,46,Male,B,116.2,179.1,36.23,153,61,240.7,230.6,109,1,2,Pulmonology,Hypertension,10
+521,59,Male,B,78.7,164.0,29.26,116,74,284.7,318.7,90,0,1,Cardiology,Hypertension,9
+522,55,Female,AB,48.4,154.4,20.3,99,109,,195.3,70,0,2,Endocrinology,Healthy,7
+523,41,Male,A,89.0,,26.03,139,84,289.8,,79,1,1,General,Diabetes,10
+524,39,Female,B,86.4,152.1,37.35,106,104,77.6,303.4,86,0,0,General,Heart Disease,5
+525,85,Female,B,51.2,178.2,16.12,93,95,188.8,146.9,66,1,2,Cardiology,Diabetes,8
+526,33,Female,B,102.6,170.5,35.29,170,78,173.0,159.7,50,1,0,Pulmonology,Hypertension,10
+527,85,Female,B,,168.5,37.12,124,102,194.9,193.2,63,0,0,Cardiology,Healthy,8
+528,72,Female,AB,104.2,161.5,39.95,102,106,254.2,,57,1,3,General,Diabetes,10
+529,29,Male,O,91.5,173.1,30.54,145,86,176.9,189.6,104,1,0,Endocrinology,Heart Disease,11
+530,41,Male,A,97.8,172.5,32.87,151,87,76.7,128.4,70,1,3,Endocrinology,HYPERTENSION,9
+531,44,female,AB,102.8,170.3,35.45,155,91,258.8,295.9,108,1,1,General,Asthma,9
+532,36,Female,B,65.4,170.3,22.55,116,80,224.7,260.5,74,0,0,General,Healthy,6
+533,80,Male,B,88.7,179.6,,129,86,91.1,252.8,100,1,1,General,Heart Disease,4
+534,39,Female,B,69.4,169.4,24.18,101,94,,196.4,70,1,0,Endocrinology,Healthy,9
+535,46,Male,AB,105.2,171.4,35.81,153,96,116.9,126.2,120,0,3,Pulmonology,Heart Disease,6
+536,24,Male,B,85.4,175.2,27.82,105,63,212.6,168.1,92,1,0,Pulmonology,Asthma,5
+537,30,Male,AB,56.1,160.2,21.86,170,90,100.2,,90,0,0,Endocrinology,Hypertension,3
+538,41,Female,A,80.0,163.0,30.11,167,90,116.0,250.2,82,0,2,Cardiology,Asthma,3
+539,53,Male,O,77.1,172.4,25.94,178,71,253.6,316.2,69,0,3,Cardiology,Healthy,11
+540,21,Male,B,112.4,159.6,,138,61,,222.4,108,1,1,Endocrinology,Healthy,9
+541,32,Female,O,61.9,171.2,21.12,116,90,101.4,226.9,58,0,3,Endocrinology,Heart Disease,0
+542,39,Female,AB,104.0,,42.52,158,84,246.2,286.5,54,1,1,Pulmonology,Healthy,11
+543,76,Male,O,109.3,154.5,45.79,172,84,210.4,151.5,90,1,1,Pulmonology,Healthy,15
+544,83,male,AB,70.8,155.7,,142,86,172.6,273.9,67,1,0,Pulmonology,Asthma,8
+545,81,Male,B,50.7,175.9,,159,93,287.3,148.6,113,0,3,Cardiology,Heart Disease,11
+546,72,Female,A,60.8,171.6,20.65,155,93,239.3,305.9,117,1,2,Endocrinology,Asthma,14
+547,81,Female,O,58.4,181.0,17.83,167,84,85.6,256.8,99,0,1,Cardiology,Diabetes,5
+548,76,Female,AB,103.2,169.0,36.13,156,110,95.0,311.9,116,1,2,Pulmonology,Asthma,7
+549,83,Male,O,80.3,186.1,23.19,99,67,270.6,197.0,107,1,1,Cardiology,Diabetes,13
+550,36,Male,O,103.6,162.4,39.28,114,61,242.6,277.1,82,0,0,Pulmonology,Asthma,5
+551,56,Female,A,61.1,171.9,20.68,168,65,274.5,165.3,102,1,1,Endocrinology,Diabetes,12
+552,71,Male,B,105.1,166.7,37.82,180,83,230.5,177.0,92,0,0,Cardiology,Diabetes,9
+553,84,Female,B,91.8,162.8,34.64,153,62,101.7,247.0,58,1,1,Endocrinology,Heart Disease,9
+554,44,Male,O,75.2,172.2,25.36,130,99,295.7,201.4,107,0,1,Cardiology,Heart Disease,8
+555,44,Male,A,62.6,,24.98,151,64,294.4,227.7,81,1,2,Endocrinology,Healthy,15
+556,58,Female,AB,49.5,157.5,19.95,132,107,,305.4,85,0,2,Cardiology,Healthy,5
+557,39,Male,A,53.6,170.9,18.35,173,103,170.3,122.0,83,1,2,Cardiology,Hypertension,11
+558,51,Female,B,80.5,168.0,28.52,156,68,292.5,,66,0,2,General,Healthy,10
+559,70,Male,B,54.1,,18.79,144,102,172.0,274.3,98,1,1,Endocrinology,Healthy,12
+560,19,Female,AB,119.1,165.9,43.27,140,67,85.2,311.6,61,1,0,Cardiology,Asthma,4
+561,23,Female,B,46.7,183.7,13.84,142,66,,220.5,86,0,0,Endocrinology,Hypertension,7
+562,69,Male,A,59.6,162.8,22.49,175,82,90.5,261.2,60,1,2,Endocrinology,Healthy,10
+563,45,Female,O,101.3,170.4,34.89,159,74,130.9,197.3,67,1,0,Endocrinology,Heart Disease,9
+564,36,Male,O,,158.2,25.09,121,88,271.5,159.1,73,1,3,Pulmonology,Healthy,13
+565,39,Female,A,117.4,176.9,37.52,178,84,119.2,278.6,106,0,3,General,Heart Disease,8
+566,47,Male,A,69.5,184.2,20.48,157,93,271.7,138.6,94,1,3,Cardiology,Diabetes,12
+567,23,Male,O,102.9,155.7,42.45,97,109,91.5,245.4,61,1,2,General,Hypertension,3
+568,65,Female,A,60.7,164.5,22.43,157,86,112.7,309.4,69,0,1,General,Hypertension,7
+569,84,Male,O,103.2,170.4,35.54,115,92,80.0,149.0,116,1,2,Cardiology,Hypertension,6
+570,36,Female,O,117.3,159.1,46.34,159,97,294.2,,74,0,1,Endocrinology,Asthma,10
+571,82,Female,A,104.6,187.6,29.72,144,86,108.0,315.8,61,0,2,Cardiology,Asthma,8
+572,27,Female,AB,,159.6,23.99,161,99,,240.7,105,1,1,General,Heart Disease,11
+573,35,Female,O,99.1,160.1,38.66,91,66,153.9,286.4,64,0,0,Pulmonology,Hypertension,3
+574,60,Male,AB,105.5,176.5,33.87,155,99,260.4,246.5,98,1,3,Cardiology,Diabetes,11
+575,64,Male,O,79.3,172.1,26.77,104,76,197.5,231.6,73,1,2,Pulmonology,Heart Disease,6
+576,72,Female,A,51.9,,20.53,139,60,,251.9,75,0,2,Endocrinology,Hypertension,9
+577,78,Male,B,105.4,185.4,30.66,113,73,116.0,296.9,98,1,2,Cardiology,Hypertension,7
+578,47,Female,AB,70.7,154.6,29.58,156,69,216.9,207.6,99,0,1,Cardiology,Healthy,7
+579,43,Male,A,60.6,160.4,23.55,173,61,286.6,162.2,62,1,2,Endocrinology,Healthy,16
+580,25,Male,B,57.7,161.5,22.12,143,85,274.2,172.8,116,1,2,General,Heart Disease,11
+581,81,Male,B,110.3,150.7,48.57,179,99,239.1,305.6,91,1,0,Pulmonology,Hypertension,16
+582,70,Male,B,62.3,171.8,21.11,100,102,,171.7,94,0,3,General,Heart Disease,8
+583,49,Female,AB,,151.2,23.1,109,75,,230.2,67,1,0,Pulmonology,Hypertension,8
+584,29,Female,B,65.2,167.1,23.35,92,92,294.7,294.6,50,0,3,Cardiology,Healthy,8
+585,65,Female,A,116.0,188.8,32.54,176,79,243.5,,85,0,3,General,Diabetes,11
+586,27,Female,AB,109.5,183.2,32.63,119,66,198.2,198.2,63,0,2,Endocrinology,Hypertension,3
+587,84,Female,AB,114.8,188.8,32.21,139,61,274.1,206.7,61,0,2,Endocrinology,Hypertension,9
+588,54,Female,B,62.3,150.9,27.36,174,106,72.4,127.8,87,0,0,General,Diabetes,6
+589,64,Female,O,67.2,160.4,,105,89,93.7,177.8,78,1,2,Pulmonology,Asthma,4
+590,22,Male,O,111.0,,38.54,146,94,219.9,308.9,119,0,1,Cardiology,Heart Disease,8
+591,19,Male,O,99.1,167.7,35.24,151,108,,182.6,99,1,1,General,Hypertension,6
+592,27,Male,B,88.9,154.1,37.44,111,102,224.4,150.5,56,1,1,Cardiology,Heart Disease,5
+593,54,Female,AB,56.5,152.5,24.29,139,79,125.2,223.7,54,0,2,General,Asthma,4
+594,77,Female,AB,58.9,166.1,21.35,105,96,169.3,205.9,89,0,1,Pulmonology,Hypertension,7
+595,31,Female,O,79.5,184.4,23.38,121,83,116.5,178.6,77,1,0,Cardiology,ASTHMA,5
+596,82,Male,A,81.2,177.9,25.66,109,61,100.0,271.5,61,1,3,Endocrinology,Diabetes,6
+597,38,Female,A,57.4,184.7,16.83,123,60,216.8,194.9,88,0,1,Cardiology,Heart Disease,9
+598,39,Male,AB,,179.4,18.46,145,75,206.6,286.2,62,1,2,Cardiology,Heart Disease,12
+599,37,Male,AB,73.0,186.6,20.97,134,92,93.4,274.1,50,0,3,Endocrinology,Healthy,2
+600,49,Male,AB,73.7,154.0,31.08,145,76,103.5,128.7,73,1,3,Cardiology,Diabetes,5
+601,65,Male,O,65.9,173.4,21.92,122,109,148.7,302.5,101,0,3,Cardiology,Heart Disease,8
+602,48,Male,B,62.2,187.0,17.79,152,61,211.8,,101,0,2,General,Diabetes,11
+603,55,Female,A,81.7,180.8,24.99,175,78,188.6,191.1,111,1,2,General,Asthma,13
+604,56,Male,AB,80.5,151.9,34.89,175,108,150.8,302.7,78,1,0,General,Asthma,10
+605,85,Female,B,76.2,166.7,27.42,159,76,261.1,296.0,75,0,3,General,Hypertension,9
+606,40,Male,O,80.1,167.3,28.62,150,102,174.1,247.6,98,1,2,Pulmonology,Hypertension,11
+607,35,Female,A,68.2,185.5,19.82,116,97,268.2,235.2,71,1,3,Endocrinology,Hypertension,12
+608,56,Male,A,70.7,169.6,24.58,107,67,98.4,209.5,118,0,3,Endocrinology,Asthma,3
+609,80,Female,O,84.2,158.4,33.56,112,79,211.7,251.7,78,0,3,Endocrinology,Heart Disease,7
+610,71,Female,A,,187.0,,159,62,84.9,199.8,116,1,0,Cardiology,Healthy,9
+611,84,Male,AB,,155.4,47.12,108,88,207.9,241.1,90,0,3,Cardiology,Healthy,10
+612,82,Male,AB,109.3,185.6,31.73,112,89,113.7,248.2,51,0,0,Cardiology,Heart Disease,5
+613,22,Male,AB,118.8,181.4,36.1,90,88,294.3,263.6,93,0,3,Pulmonology,Heart Disease,8
+614,82,Male,B,107.6,168.5,37.9,176,80,162.3,139.5,90,1,0,General,Hypertension,9
+615,51,Male,AB,109.3,167.2,39.1,125,87,116.8,,55,0,2,General,Healthy,2
+616,81,Female,A,88.3,172.3,29.74,127,85,288.2,239.5,61,0,2,Pulmonology,Hypertension,8
+617,37,Female,AB,79.8,182.0,24.09,138,89,135.8,255.3,55,0,0,General,Healthy,6
+618,22,Female,AB,87.3,152.8,37.39,97,83,,153.6,85,0,3,Endocrinology,Asthma,0
+619,55,Female,A,115.4,152.2,49.82,169,96,142.6,148.4,90,0,3,Endocrinology,DIABETES,7
+620,85,Male,B,101.5,,44.28,116,70,245.7,294.4,116,0,1,Pulmonology,Healthy,9
+621,44,Female,O,58.2,153.2,24.8,160,94,,224.0,95,0,1,Endocrinology,Healthy,11
+622,63,Female,AB,73.2,160.1,28.56,112,63,149.3,196.6,50,0,0,Cardiology,Heart Disease,6
+623,67,Male,A,60.5,181.1,18.45,139,104,173.4,252.3,57,1,0,Endocrinology,Heart Disease,10
+624,85,Female,B,70.6,153.7,29.89,117,89,278.5,317.8,89,1,3,Cardiology,Diabetes,11
+625,53,Male,O,109.3,159.4,43.02,90,61,88.9,,60,1,3,Pulmonology,Hypertension,7
+626,28,Female,O,110.4,151.6,48.04,159,87,265.3,286.2,94,0,0,General,Asthma,12
+627,74,Male,B,85.0,169.2,29.69,146,97,269.2,259.5,93,1,3,Pulmonology,Diabetes,16
+628,69,Male,B,117.2,156.9,47.61,176,73,172.4,292.7,84,0,2,Pulmonology,Asthma,8
+629,60,Male,O,89.3,175.7,28.93,161,93,259.4,280.2,103,1,0,Pulmonology,Diabetes,15
+630,51,Female,B,91.7,170.8,31.43,154,96,86.7,256.0,78,0,2,Cardiology,Hypertension,4
+631,82,Female,A,,178.7,24.99,156,82,187.5,292.9,54,0,1,Cardiology,Heart Disease,11
+632,43,Male,A,99.4,172.1,33.56,148,87,237.4,310.0,61,1,2,General,Hypertension,12
+633,38,Male,A,105.8,156.2,43.36,128,82,248.4,193.9,52,1,1,Pulmonology,Heart Disease,8
+634,32,Male,AB,86.1,184.2,25.38,159,81,118.0,247.0,64,1,2,Pulmonology,Healthy,7
+635,28,Female,O,89.7,185.1,26.18,127,92,139.3,224.6,72,1,3,Cardiology,Asthma,8
+636,63,Male,A,50.9,162.6,19.25,169,83,100.7,143.3,55,0,1,Endocrinology,Diabetes,5
+637,41,Male,B,92.9,151.5,40.48,178,85,225.4,121.8,67,1,2,Endocrinology,Asthma,14
+638,38,Male,AB,98.9,175.8,32.0,124,68,244.0,256.5,92,1,0,Cardiology,Heart Disease,12
+639,67,Male,B,71.6,168.9,25.1,158,93,109.8,274.2,111,1,2,Endocrinology,Hypertension,7
+640,32,Female,AB,96.0,156.4,39.25,143,67,257.0,193.9,120,0,2,Endocrinology,Heart Disease,11
+641,85,Female,AB,85.6,158.2,34.2,170,87,108.9,161.3,106,0,1,Cardiology,Healthy,9
+642,68,Male,AB,58.1,187.6,16.51,177,99,297.4,266.1,68,0,3,Cardiology,Heart Disease,12
+643,24,Female,AB,54.2,162.4,20.55,145,75,295.9,202.2,105,0,3,General,Asthma,11
+644,53,Male,A,52.0,179.7,,106,95,106.0,247.6,85,1,0,Cardiology,Diabetes,5
+645,48,Female,AB,45.8,181.1,13.96,113,98,186.0,134.4,109,0,0,Cardiology,Diabetes,7
+646,77,Female,A,101.9,165.0,37.43,125,73,78.4,142.3,94,0,1,Pulmonology,Heart Disease,6
+647,40,Female,B,65.5,159.6,25.71,174,85,221.0,158.1,68,1,2,Cardiology,Hypertension,8
+648,78,Female,A,55.2,168.8,19.37,132,94,293.6,138.7,91,0,3,Cardiology,Heart Disease,11
+649,71,Female,B,76.7,167.3,27.4,146,95,238.7,315.8,57,1,3,Endocrinology,Asthma,12
+650,78,Male,A,95.5,157.3,38.6,123,91,182.2,245.8,108,0,1,Endocrinology,Heart Disease,8
+651,79,Female,AB,107.3,185.0,31.35,105,101,184.5,203.2,101,0,1,Endocrinology,Asthma,9
+652,59,Female,O,87.9,173.5,29.2,90,69,209.4,,98,1,1,Pulmonology,Asthma,6
+653,46,Male,B,109.7,,48.43,149,66,86.3,230.4,57,0,2,Pulmonology,Heart Disease,5
+654,57,Male,A,96.4,156.2,39.51,99,63,238.4,226.7,69,1,0,Endocrinology,Healthy,11
+655,56,Male,B,111.1,182.7,33.28,118,81,136.8,311.0,84,0,1,Cardiology,Heart Disease,4
+656,58,Male,AB,84.6,162.9,31.88,162,94,,256.2,94,1,0,Cardiology,Diabetes,6
+657,21,Male,AB,85.7,189.4,23.89,112,99,212.8,168.9,116,0,1,Cardiology,Heart Disease,3
+658,71,Male,B,87.3,,38.24,135,63,219.9,186.2,96,0,3,Cardiology,Diabetes,12
+659,48,Male,B,112.3,170.9,38.45,140,64,231.2,273.2,54,0,2,Cardiology,Heart Disease,11
+660,82,Male,O,115.4,158.3,46.05,127,110,259.1,274.7,91,1,3,Pulmonology,Asthma,14
+661,64,Male,A,88.1,183.9,26.05,100,110,240.8,176.2,80,1,0,Cardiology,Healthy,7
+662,77,Female,B,74.4,170.2,25.68,155,110,269.4,195.2,102,0,3,Endocrinology,Hypertension,13
+663,55,Male,B,84.9,180.3,26.12,96,100,100.3,174.3,80,1,2,Endocrinology,Healthy,4
+664,23,Female,A,49.1,174.0,16.22,93,62,171.6,283.6,50,1,0,Pulmonology,Healthy,4
+665,68,Female,B,56.8,183.2,,93,61,125.4,169.2,116,0,2,Endocrinology,Healthy,6
+666,57,Male,B,57.7,175.7,18.69,91,84,81.5,236.6,78,1,1,General,Hypertension,6
+667,72,Female,AB,62.0,189.4,17.28,143,93,107.6,219.6,60,0,0,Pulmonology,Diabetes,6
+668,64,Male,B,114.5,161.1,44.12,127,71,228.5,146.7,72,1,2,Pulmonology,Diabetes,12
+669,34,Male,B,,168.8,40.96,142,110,246.6,207.6,70,0,3,Pulmonology,Healthy,6
+670,29,Female,B,55.2,,20.42,176,93,230.6,288.3,62,1,3,Cardiology,Heart Disease,9
+671,77,Male,B,94.4,181.5,28.66,129,61,,164.1,66,0,3,General,Healthy,2
+672,27,Female,AB,106.6,,35.58,132,72,196.5,150.9,87,0,3,Endocrinology,Healthy,7
+673,59,Male,O,60.0,176.1,19.35,145,93,189.7,211.1,115,0,2,Endocrinology,Diabetes,6
+674,50,Male,O,114.6,172.6,38.47,160,107,216.7,,88,0,3,General,Diabetes,7
+675,18,Female,B,,156.8,19.89,135,81,95.0,155.9,75,0,2,Endocrinology,Diabetes,0
+676,37,female,A,76.1,150.2,33.73,145,60,129.0,162.0,92,0,0,General,Heart Disease,3
+677,0,Female,A,63.4,,18.15,148,61,242.2,182.1,91,1,0,Pulmonology,Healthy,13
+678,31,Male,AB,83.9,157.1,33.99,159,65,134.4,224.8,120,0,3,Endocrinology,Diabetes,4
+679,71,Female,AB,93.1,174.8,30.47,98,60,288.0,,105,1,2,Cardiology,Diabetes,10
+680,63,Male,AB,91.3,159.3,35.98,148,110,233.9,172.1,120,1,0,Endocrinology,Heart Disease,11
+681,49,Female,A,84.9,155.0,,159,91,195.2,164.9,55,0,2,Cardiology,Heart Disease,7
+682,0,Male,AB,47.0,184.1,13.87,170,92,289.4,,108,1,0,Endocrinology,Diabetes,18
+683,45,Male,A,98.6,173.4,32.79,172,63,83.5,238.3,85,1,3,Cardiology,Heart Disease,5
+684,27,Female,B,,171.4,15.83,132,78,281.1,312.7,75,1,0,Pulmonology,Healthy,10
+685,45,Male,O,80.1,158.0,32.09,104,76,295.1,312.9,71,1,2,Endocrinology,Hypertension,11
+686,62,Male,B,87.4,162.9,32.94,143,90,97.7,173.2,99,0,0,General,Healthy,2
+687,62,Male,B,60.4,160.7,23.39,135,71,223.9,309.1,109,0,1,Pulmonology,Hypertension,11
+688,83,Female,AB,55.1,157.5,22.21,173,75,217.0,275.3,95,1,0,Pulmonology,Hypertension,13
+689,76,Female,AB,72.8,179.6,22.57,97,70,85.7,290.1,68,0,2,General,Diabetes,6
+690,18,Male,B,117.0,,49.79,98,87,181.7,302.1,74,1,3,Endocrinology,Healthy,7
+691,48,Female,AB,60.2,164.3,22.3,116,63,170.4,194.6,80,1,2,Endocrinology,Hypertension,7
+692,42,Male,B,63.7,165.1,23.37,158,81,129.2,147.6,88,0,0,Pulmonology,Asthma,8
+693,76,Female,B,114.1,183.1,34.03,119,106,110.2,144.2,79,0,0,Cardiology,Hypertension,5
+694,25,Male,B,,184.8,15.34,139,83,205.3,272.2,69,1,1,Pulmonology,Heart Disease,10
+695,46,Male,AB,98.5,152.6,42.3,129,107,122.9,290.4,81,1,2,Endocrinology,Healthy,8
+696,85,Male,AB,88.6,186.0,25.61,150,92,285.1,147.4,54,1,3,Endocrinology,Diabetes,14
+697,74,Male,AB,82.5,154.1,34.74,133,94,159.3,241.1,90,0,2,Cardiology,Heart Disease,6
+698,31,Female,B,111.5,,,91,62,93.7,239.3,97,0,3,General,Hypertension,3
+699,36,Male,A,,171.7,19.64,99,76,281.5,300.6,63,0,2,Endocrinology,Hypertension,7
+700,24,Male,A,114.0,155.7,47.02,140,65,299.6,277.7,62,0,0,Endocrinology,Hypertension,6
+701,76,Female,AB,80.4,166.6,28.97,161,108,270.6,,67,1,2,Cardiology,Healthy,16
+702,38,Female,AB,,183.0,26.84,116,66,111.2,120.4,54,0,1,Cardiology,Asthma,3
+703,30,Female,B,69.2,175.1,22.57,136,92,255.2,169.2,120,0,1,Cardiology,Heart Disease,10
+704,24,Male,B,114.8,182.2,34.58,98,78,216.8,206.5,77,1,2,Cardiology,Asthma,4
+705,19,Male,O,82.0,187.1,23.42,150,74,70.7,179.6,104,1,1,Endocrinology,Healthy,4
+706,40,Male,AB,83.5,169.9,28.93,133,86,,281.2,56,0,3,General,Healthy,6
+707,73,Male,O,,180.9,31.96,116,62,260.2,268.3,84,1,2,General,Asthma,9
+708,67,Male,O,96.9,182.6,29.06,91,82,265.8,206.4,59,1,1,Cardiology,Hypertension,11
+709,64,Male,B,83.0,179.9,25.65,120,91,131.2,235.7,93,0,3,General,Healthy,5
+710,51,Female,A,,177.7,,98,96,999.0,308.7,105,1,0,Pulmonology,Heart Disease,3
+711,36,Male,AB,76.9,161.0,29.67,154,91,262.4,152.2,64,0,2,Pulmonology,Heart Disease,10
+712,78,male,B,70.9,187.2,20.23,119,98,200.7,258.8,100,1,1,Cardiology,Healthy,11
+713,79,Male,O,53.9,181.4,16.38,167,90,111.6,271.9,70,1,1,Pulmonology,Diabetes,9
+714,19,Female,A,78.5,171.9,26.57,146,77,,243.1,101,1,3,Cardiology,Diabetes,11
+715,39,Male,AB,72.9,186.8,20.89,133,73,265.2,184.2,91,0,2,Endocrinology,Heart Disease,11
+716,81,Female,A,108.7,187.6,30.89,106,107,174.6,220.5,53,0,2,Endocrinology,Asthma,9
+717,35,Female,O,58.1,173.6,19.28,103,100,84.4,161.0,53,1,1,Endocrinology,Diabetes,3
+718,65,Male,AB,72.6,181.3,22.09,159,81,224.2,142.0,78,0,2,Pulmonology,Diabetes,8
+719,47,Female,O,102.1,158.2,40.8,154,91,247.8,,90,0,1,Endocrinology,Heart Disease,8
+720,33,Female,O,104.8,169.2,36.61,174,99,75.5,281.9,60,1,3,General,Heart Disease,6
+721,58,Female,AB,,168.0,22.46,106,78,107.9,153.5,65,0,3,Pulmonology,Hypertension,5
+722,58,Female,AB,110.6,186.1,31.93,113,108,81.6,142.4,98,0,0,General,Asthma,5
+723,56,Female,B,90.9,187.6,25.83,95,89,220.3,266.4,87,0,2,Endocrinology,Healthy,6
+724,37,Female,B,56.6,186.5,,142,106,148.1,306.9,90,0,1,Endocrinology,Healthy,6
+725,76,Male,A,57.1,184.8,,113,76,999.0,246.3,87,0,1,General,Healthy,7
+726,20,Female,O,111.4,158.2,44.51,136,74,284.5,170.9,120,0,1,Pulmonology,Asthma,11
+727,26,Male,AB,72.2,165.4,26.39,149,94,170.7,202.2,56,1,2,Cardiology,Healthy,11
+728,21,Female,AB,56.8,,23.83,113,98,170.3,217.4,118,1,3,Cardiology,Heart Disease,8
+729,43,Female,O,55.2,174.8,18.07,168,65,240.3,297.2,90,1,0,Pulmonology,Heart Disease,9
+730,65,Male,A,117.6,158.6,46.75,93,60,191.3,207.2,81,1,2,Pulmonology,Asthma,9
+731,67,Female,O,87.0,166.0,31.57,95,88,198.0,172.3,119,1,2,Cardiology,Heart Disease,6
+732,46,Male,B,110.5,177.3,35.15,148,83,273.7,179.4,110,0,2,Pulmonology,Asthma,8
+733,34,Female,O,86.7,181.0,26.46,110,72,206.5,213.7,82,0,3,Cardiology,Hypertension,7
+734,59,Male,O,67.6,166.8,24.3,141,64,282.2,232.3,72,1,3,Cardiology,Heart Disease,10
+735,69,Female,O,78.2,181.1,23.84,99,76,205.2,147.9,60,1,0,Pulmonology,Healthy,9
+736,61,Male,B,86.1,177.8,27.24,152,94,242.0,276.4,80,1,3,Endocrinology,Heart Disease,12
+737,42,Male,A,83.4,169.9,28.89,98,107,93.6,132.0,80,0,3,Pulmonology,Hypertension,0
+738,73,Male,B,102.2,174.5,33.56,135,103,201.5,187.2,104,0,0,Pulmonology,Healthy,10
+739,75,Male,AB,119.8,161.0,46.22,142,110,135.6,235.5,89,0,0,General,Asthma,7
+740,21,Male,A,88.3,179.6,27.37,99,91,108.8,273.9,55,0,3,Endocrinology,Healthy,0
+741,19,male,A,100.5,167.9,35.65,169,75,,220.1,97,1,3,Cardiology,ASTHMA,14
+742,58,Female,O,73.7,151.5,,109,71,999.0,,67,0,2,Cardiology,Asthma,7
+743,55,Female,B,48.2,174.8,15.77,99,78,172.1,253.4,112,0,1,Endocrinology,Diabetes,6
+744,69,Female,AB,102.7,184.2,30.27,140,75,98.7,156.5,105,0,0,Pulmonology,Asthma,7
+745,25,Male,B,59.6,154.1,25.1,98,107,240.9,225.8,94,0,3,General,Healthy,4
+746,39,Female,B,81.8,177.9,25.85,91,88,148.3,159.7,56,1,0,Cardiology,Hypertension,3
+747,74,Male,A,,,22.03,141,92,239.4,185.7,79,1,1,Pulmonology,Healthy,14
+748,48,Female,O,64.3,156.7,26.19,123,105,229.7,314.6,62,0,3,General,Heart Disease,6
+749,33,Female,A,115.0,150.9,50.5,146,87,221.4,226.7,53,1,1,Cardiology,Hypertension,9
+750,33,Female,B,,162.8,21.77,153,83,170.7,284.9,61,0,1,Pulmonology,Asthma,6
+751,39,Female,O,68.7,162.5,26.02,133,68,218.7,310.1,72,0,1,Pulmonology,Heart Disease,8
+752,32,Female,O,95.4,172.1,32.21,134,85,235.0,133.3,110,0,3,Pulmonology,Diabetes,7
+753,20,Female,A,48.5,,20.29,177,101,85.2,283.3,91,1,0,Endocrinology,Diabetes,8
+754,61,Female,B,90.0,178.1,28.37,175,103,239.6,308.7,98,1,3,Pulmonology,Heart Disease,13
+755,64,Female,B,91.3,166.6,32.89,120,63,237.3,266.1,83,0,2,Pulmonology,Hypertension,11
+756,81,Female,A,,187.8,14.18,172,101,165.9,288.3,111,0,1,Endocrinology,Asthma,8
+757,59,Male,AB,105.6,167.0,37.86,154,65,168.5,232.7,67,0,0,Cardiology,Asthma,9
+758,79,Male,AB,90.2,163.9,33.58,91,83,71.7,246.8,102,0,3,Endocrinology,Diabetes,1
+759,65,Male,O,52.4,159.4,,172,92,208.4,299.1,69,1,3,Cardiology,Diabetes,13
+760,39,Female,O,73.6,161.1,28.36,116,100,222.6,203.5,77,1,1,General,Asthma,9
+761,49,Female,B,94.1,183.0,28.1,94,103,149.4,258.4,90,0,1,Pulmonology,Diabetes,5
+762,62,Male,AB,77.4,186.1,22.35,169,107,251.3,132.1,107,0,1,Endocrinology,Diabetes,13
+763,37,female,B,68.7,187.1,19.62,159,89,,146.3,106,0,3,Cardiology,Diabetes,5
+764,53,Female,O,101.7,158.3,40.58,122,87,127.4,224.9,52,1,2,Endocrinology,Heart Disease,6
+765,81,Female,B,83.1,,31.28,159,86,87.4,170.5,106,0,3,General,Healthy,8
+766,34,Female,AB,111.4,173.8,36.88,152,93,294.9,260.5,82,1,3,Cardiology,Healthy,11
+767,85,Female,A,47.8,189.8,13.27,103,71,110.4,302.6,107,0,3,Pulmonology,Hypertension,6
+768,36,Female,B,100.1,175.0,32.69,114,79,231.4,311.7,90,0,2,Cardiology,Asthma,6
+769,38,Male,O,73.9,155.2,30.68,145,98,250.1,286.6,81,0,2,Endocrinology,Heart Disease,9
+770,67,Female,B,66.8,184.5,19.62,160,66,181.2,218.8,82,1,3,General,Hypertension,9
+771,66,Female,B,62.2,164.2,23.07,134,91,285.9,198.4,105,1,2,Endocrinology,Heart Disease,11
+772,84,Female,AB,66.1,150.7,29.11,168,98,129.9,138.5,51,0,1,Pulmonology,Hypertension,10
+773,25,Male,AB,87.7,185.2,25.57,99,95,98.3,195.9,111,1,1,Cardiology,Heart Disease,5
+774,82,Female,B,97.1,182.5,29.15,169,69,217.6,130.5,107,0,2,General,Healthy,14
+775,43,Male,A,53.3,165.5,19.46,180,98,265.5,284.1,103,1,3,Cardiology,Hypertension,14
+776,33,Male,AB,72.5,176.6,23.25,117,91,117.4,305.6,116,1,1,General,Diabetes,3
+777,60,Female,A,49.9,174.1,16.46,140,90,98.5,308.5,91,1,1,Pulmonology,Healthy,8
+778,44,Male,AB,52.4,161.9,19.99,133,75,228.7,203.0,69,0,1,Cardiology,Diabetes,9
+779,25,Male,O,48.1,176.5,15.44,150,62,212.0,283.4,114,1,2,Cardiology,Healthy,9
+780,32,Male,A,82.7,,35.01,176,107,91.3,245.8,57,1,1,Pulmonology,Hypertension,8
+781,46,Male,B,75.1,154.3,,112,103,,287.5,53,0,1,Cardiology,Asthma,7
+782,76,Female,AB,55.6,161.5,21.32,114,81,163.4,187.5,86,0,1,Cardiology,Diabetes,7
+783,37,Male,B,,167.4,33.9,147,94,293.7,177.0,80,1,3,Endocrinology,Hypertension,9
+784,81,Female,A,73.4,188.9,20.57,110,75,196.3,218.6,77,1,2,Pulmonology,Asthma,8
+785,67,Female,AB,64.4,157.4,25.99,146,89,210.9,215.5,102,0,3,General,Asthma,10
+786,60,Female,B,95.0,170.9,32.53,179,110,88.9,173.8,84,0,2,Endocrinology,Heart Disease,5
+787,45,Male,O,,,,136,76,74.3,273.5,57,0,3,Pulmonology,Heart Disease,6
+788,22,Male,O,105.5,160.9,,169,97,73.7,258.7,94,0,0,Cardiology,Asthma,4
+789,70,Female,B,77.5,157.5,31.24,174,96,999.0,210.9,78,1,0,Cardiology,Asthma,16
+790,80,Male,B,97.6,161.8,37.28,109,77,71.7,293.5,101,1,2,General,Hypertension,7
+791,84,Female,O,70.3,156.7,28.63,128,88,183.0,274.0,52,0,3,Endocrinology,Asthma,6
+792,65,Female,B,73.8,,25.6,163,61,228.8,,88,0,3,Endocrinology,Hypertension,12
+793,60,Male,AB,80.8,150.6,35.63,145,68,191.7,185.0,75,0,3,Cardiology,Hypertension,8
+794,68,Female,AB,59.9,187.4,17.06,165,72,257.1,155.7,63,1,2,Pulmonology,Healthy,15
+795,64,Male,O,60.4,170.0,20.9,110,107,253.3,207.6,85,0,1,General,Hypertension,9
+796,25,Male,A,70.4,178.3,22.14,167,92,296.7,212.5,113,0,1,Cardiology,Asthma,10
+797,85,Female,B,66.9,150.3,29.61,132,93,90.0,243.5,76,0,0,Pulmonology,Diabetes,3
+798,64,Female,A,117.9,163.5,,117,91,134.0,298.1,87,0,3,Cardiology,Heart Disease,4
+799,45,Female,A,63.8,157.2,25.82,99,97,221.2,313.0,104,0,3,Pulmonology,Asthma,7
+800,80,Male,B,106.0,173.1,35.38,148,86,239.2,281.2,77,1,0,General,Diabetes,13
+801,60,Female,AB,119.3,153.5,50.63,99,94,153.4,,77,1,2,Cardiology,Healthy,9
+802,53,Male,AB,86.8,189.4,24.2,125,84,242.4,168.1,75,1,2,Pulmonology,Heart Disease,13
+803,35,Female,O,62.4,160.2,24.31,108,110,278.8,296.6,57,0,3,Pulmonology,Heart Disease,6
+804,45,Male,A,64.2,157.7,25.81,104,103,119.0,289.0,68,1,0,General,Healthy,8
+805,52,Female,AB,91.0,150.0,40.44,122,80,,293.2,120,0,1,Endocrinology,Asthma,5
+806,74,female,AB,118.1,159.3,46.54,97,93,232.8,177.6,119,0,1,Pulmonology,Diabetes,8
+807,56,Female,AB,64.8,188.2,18.3,133,80,263.8,183.4,96,0,2,General,Asthma,7
+808,21,Female,B,80.7,173.4,26.84,116,100,205.8,212.4,117,0,3,Pulmonology,Diabetes,2
+809,48,Female,B,75.9,176.8,24.28,122,107,125.3,209.5,55,0,1,Cardiology,Hypertension,2
+810,27,Female,A,75.0,,25.44,134,68,199.0,302.3,57,0,0,Pulmonology,Asthma,6
+811,70,Male,AB,83.8,153.0,35.8,111,86,135.7,258.7,53,0,3,Cardiology,Hypertension,8
+812,28,Female,A,79.8,169.2,27.87,124,87,,307.6,95,1,3,Cardiology,Asthma,6
+813,63,Female,B,106.5,167.5,,104,72,180.5,298.9,55,0,2,General,Diabetes,6
+814,28,Female,O,,171.6,25.3,158,64,209.0,276.0,119,0,2,Cardiology,Asthma,7
+815,83,Male,B,,188.9,29.01,150,96,120.3,219.9,100,0,2,Cardiology,Diabetes,7
+816,52,Male,A,84.8,186.8,,163,92,80.3,132.6,85,1,2,Pulmonology,Diabetes,9
+817,80,Male,B,63.8,158.2,25.49,142,87,195.2,,67,0,0,Cardiology,Heart Disease,11
+818,35,Male,O,74.6,175.1,24.33,173,87,280.6,195.1,62,1,1,Cardiology,Healthy,13
+819,21,Male,AB,89.2,177.9,28.18,141,71,263.1,236.5,52,1,1,Endocrinology,Heart Disease,12
+820,36,Female,A,97.4,154.2,40.96,144,83,88.0,149.7,87,0,0,Pulmonology,Diabetes,4
+821,20,Male,A,116.5,159.4,45.85,151,81,77.5,294.8,108,0,3,General,Heart Disease,5
+822,47,Female,B,,164.1,,90,65,208.1,285.3,71,0,3,General,Diabetes,3
+823,67,Female,B,73.9,150.4,32.67,97,93,,194.0,114,0,1,Pulmonology,Asthma,8
+824,79,Male,O,78.5,178.4,24.66,149,79,157.0,127.7,102,0,2,Cardiology,Diabetes,5
+825,41,Female,A,55.1,152.2,23.79,147,61,239.8,,103,0,3,Pulmonology,Diabetes,6
+826,53,Female,O,99.8,158.7,39.63,177,98,,200.9,96,1,2,Endocrinology,Hypertension,9
+827,45,Male,B,102.5,161.9,39.1,105,106,269.9,310.0,92,0,0,Endocrinology,Diabetes,6
+828,59,Female,B,63.4,171.8,21.48,141,66,286.2,159.1,75,0,0,Cardiology,Diabetes,12
+829,81,Female,O,68.0,154.3,28.56,152,60,253.2,239.2,57,1,0,Cardiology,Hypertension,16
+830,24,Female,AB,86.3,175.7,27.96,132,85,189.8,265.5,105,1,0,Cardiology,Asthma,10
+831,44,Female,AB,82.7,178.3,26.01,124,107,231.4,244.9,100,1,3,Pulmonology,Heart Disease,9
+832,58,Female,A,94.2,182.8,28.19,104,70,285.2,283.0,59,0,2,Endocrinology,Diabetes,10
+833,36,Female,O,112.2,170.7,38.51,147,97,85.4,,60,0,3,General,Hypertension,3
+834,83,male,B,54.1,167.5,19.28,176,77,999.0,286.8,120,1,0,Pulmonology,Heart Disease,9
+835,56,Female,B,72.7,167.8,25.82,149,89,162.6,224.5,79,0,1,Pulmonology,Asthma,4
+836,71,Male,B,56.8,185.7,16.47,142,81,136.2,144.7,112,1,1,Cardiology,Heart Disease,12
+837,30,Male,B,114.7,172.5,38.55,124,101,239.6,221.2,75,1,2,Endocrinology,Heart Disease,11
+838,40,Female,A,109.2,183.0,32.61,165,75,153.2,297.6,114,0,2,Pulmonology,Heart Disease,9
+839,48,Male,A,113.5,179.6,35.19,126,60,159.4,276.6,95,0,0,General,HYPERTENSION,6
+840,72,Female,A,,173.0,30.77,130,109,79.9,210.3,59,1,0,Endocrinology,Asthma,7
+841,35,Male,O,,176.9,20.26,110,106,141.5,,76,0,2,Pulmonology,Healthy,2
+842,74,Female,B,93.6,159.2,36.93,112,105,133.7,295.7,116,1,0,Pulmonology,Hypertension,5
+843,79,Female,AB,68.3,165.0,25.09,159,86,150.3,241.6,69,0,1,Endocrinology,Hypertension,8
+844,29,Female,B,93.7,174.8,30.67,146,109,173.1,203.3,56,0,1,General,Diabetes,7
+845,45,Female,AB,104.9,169.0,36.73,119,91,266.1,232.9,119,0,0,Pulmonology,Asthma,6
+846,58,Male,B,94.9,182.5,28.49,133,105,116.3,236.1,113,1,3,Endocrinology,Hypertension,5
+847,62,Male,O,100.2,182.0,30.25,164,83,118.9,152.0,90,0,1,Endocrinology,Heart Disease,6
+848,80,Male,AB,93.4,162.5,35.37,111,86,285.4,146.6,66,0,3,Endocrinology,Asthma,8
+849,19,Female,O,109.6,162.5,41.51,107,60,185.3,201.7,119,0,3,General,Diabetes,6
+850,24,Male,AB,74.0,166.2,26.79,133,66,237.7,219.1,95,1,0,General,Diabetes,11
+851,68,Female,A,96.2,152.2,41.53,144,87,,,74,0,0,Cardiology,Healthy,10
+852,19,Female,AB,73.6,160.8,28.46,176,103,250.1,165.7,120,0,3,Endocrinology,Asthma,7
+853,37,Male,A,116.1,171.4,39.52,104,96,173.7,166.9,61,0,2,Cardiology,Asthma,7
+854,69,Female,A,104.0,182.9,31.09,126,98,110.7,122.4,102,0,0,Pulmonology,Diabetes,5
+855,83,Female,AB,106.2,,36.11,175,90,142.3,197.6,86,0,3,General,Healthy,12
+856,18,Female,B,83.7,164.0,31.12,95,82,,293.2,52,1,1,Endocrinology,Healthy,2
+857,73,Male,AB,111.9,150.1,49.67,155,88,277.7,,120,0,1,Cardiology,Diabetes,9
+858,41,Male,AB,89.4,168.7,31.41,168,87,134.2,184.0,99,0,2,General,Hypertension,4
+859,58,Female,O,81.0,153.2,34.51,161,70,183.2,233.2,59,1,1,General,Asthma,10
+860,67,Male,B,88.5,150.3,39.18,158,110,148.5,,82,0,3,Endocrinology,Heart Disease,5
+861,79,Male,AB,100.7,158.4,40.13,139,62,278.8,211.1,97,0,0,Endocrinology,Healthy,12
+862,62,Male,O,50.1,172.3,16.88,117,79,199.6,139.1,108,1,2,Cardiology,Asthma,11
+863,66,Male,B,97.5,183.2,29.05,132,66,274.5,192.7,105,1,3,Pulmonology,Healthy,11
+864,26,Female,A,95.0,157.8,38.15,99,91,265.9,265.5,65,1,2,Endocrinology,Healthy,6
+865,85,Female,B,80.2,152.2,34.62,138,70,207.0,,55,0,3,Endocrinology,Heart Disease,10
+866,69,Male,B,58.5,,17.68,104,93,125.8,200.2,93,0,0,Endocrinology,Hypertension,5
+867,53,Male,O,83.0,157.2,,130,88,211.3,193.1,86,1,2,Pulmonology,Heart Disease,8
+868,43,Female,AB,106.0,181.7,32.11,102,61,276.7,247.7,90,0,0,Cardiology,Hypertension,6
+869,68,Female,B,105.2,185.5,,130,60,252.9,189.2,86,1,0,Endocrinology,Healthy,12
+870,35,Female,O,93.8,168.3,33.12,165,67,94.6,134.3,52,0,1,Pulmonology,Asthma,5
+871,82,Female,AB,72.4,163.4,27.12,135,88,226.6,148.4,58,0,3,Endocrinology,Heart Disease,11
+872,26,Female,O,62.4,185.5,18.13,171,82,244.7,304.5,89,1,0,Pulmonology,Healthy,14
+873,83,Male,A,98.8,,39.38,146,102,,305.6,87,1,3,Cardiology,Hypertension,9
+874,46,Male,O,47.3,165.1,17.35,147,73,149.5,248.6,110,0,0,Endocrinology,Diabetes,7
+875,55,Male,A,62.5,183.0,18.66,135,81,263.6,299.8,117,1,2,Cardiology,Hypertension,14
+876,54,Male,B,90.5,173.9,29.93,129,60,,,64,0,1,Endocrinology,Healthy,2
+877,34,Male,A,79.4,165.4,29.02,143,102,178.6,184.5,100,0,0,Cardiology,Diabetes,5
+878,56,Female,AB,68.1,154.4,28.57,117,79,155.2,205.9,103,0,3,Endocrinology,Hypertension,3
+879,51,Male,B,99.2,183.4,29.49,157,91,273.7,,60,1,2,Pulmonology,Healthy,11
+880,53,Male,O,100.0,152.2,43.17,170,61,81.1,218.3,89,1,0,Endocrinology,Hypertension,10
+881,27,Male,O,95.1,168.1,33.65,127,65,94.3,256.8,76,1,1,Cardiology,Diabetes,5
+882,67,Female,B,75.0,184.9,21.94,134,110,,258.6,54,1,1,Endocrinology,Diabetes,10
+883,33,Female,B,70.3,,27.63,147,83,222.0,,84,0,0,General,DIABETES,9
+884,53,Female,AB,66.9,162.9,25.21,115,110,201.3,173.7,54,0,1,Endocrinology,Hypertension,4
+885,30,Male,AB,84.7,167.3,30.26,153,63,113.7,213.6,114,0,1,Pulmonology,Diabetes,7
+886,79,Male,O,109.3,187.9,30.96,176,72,73.8,,96,1,0,Pulmonology,Hypertension,9
+887,77,Male,AB,115.2,166.9,41.36,106,105,194.9,,82,1,1,General,Asthma,10
+888,59,Female,AB,49.0,187.5,13.94,169,83,248.6,273.9,61,0,2,Pulmonology,Diabetes,8
+889,64,Male,O,84.7,160.6,32.84,138,104,105.2,272.0,118,1,2,Cardiology,Heart Disease,8
+890,28,Female,B,69.0,160.6,26.75,165,66,149.4,144.5,66,0,2,Cardiology,Healthy,6
+891,25,Male,A,,175.3,17.8,133,73,128.3,230.6,74,1,0,Cardiology,HEART DISEASE,5
+892,45,Male,AB,85.3,188.0,24.13,156,61,226.1,268.8,106,0,2,Endocrinology,Heart Disease,10
+893,20,Male,AB,49.3,,15.88,163,70,,224.1,85,0,1,Pulmonology,Hypertension,7
+894,76,Male,O,49.6,170.6,17.04,148,82,96.9,188.9,93,0,2,Cardiology,Healthy,5
+895,47,Male,O,94.8,150.2,42.02,131,104,,238.6,95,0,2,Pulmonology,Asthma,6
+896,81,Female,AB,63.9,187.1,18.25,125,77,221.1,296.6,50,0,1,Endocrinology,Heart Disease,10
+897,58,Female,AB,105.5,186.0,30.49,106,94,109.2,298.2,118,0,3,General,Heart Disease,1
+898,30,Male,A,53.0,,18.85,141,99,197.6,150.8,113,0,0,General,Diabetes,4
+899,29,Female,A,71.5,175.5,,112,92,80.0,263.3,85,1,3,Endocrinology,Asthma,6
+900,42,Female,A,99.8,164.8,36.75,171,82,999.0,317.7,55,1,2,Pulmonology,Asthma,12
+901,71,Female,A,,169.5,22.76,157,68,96.6,171.5,116,1,3,Pulmonology,HEART DISEASE,9
+902,22,Male,B,94.5,165.8,34.38,103,77,138.4,174.1,102,0,3,General,Diabetes,2
+903,50,Female,A,49.4,169.8,17.13,177,85,228.0,136.6,114,0,2,General,Hypertension,11
+904,28,male,A,67.7,159.4,26.64,157,109,107.9,211.4,77,1,1,Endocrinology,Diabetes,4
+905,72,Female,O,96.3,174.3,31.7,139,98,168.5,190.6,58,1,0,General,Diabetes,9
+906,58,Male,AB,74.9,,31.58,96,75,249.7,319.7,101,1,0,Endocrinology,Hypertension,7
+907,49,Male,O,84.4,170.1,29.17,150,95,173.4,309.6,111,0,0,Endocrinology,Hypertension,5
+908,54,Female,O,108.5,152.9,46.41,94,82,117.8,,113,1,3,General,Healthy,2
+909,74,Male,AB,88.5,180.1,27.28,134,110,,261.2,67,1,1,Pulmonology,Healthy,14
+910,41,Female,O,57.2,153.2,24.37,130,107,283.7,194.0,101,1,1,Cardiology,Diabetes,8
+911,63,Female,B,103.8,184.9,30.36,111,83,,133.8,70,0,0,General,Healthy,6
+912,75,Male,A,,187.1,28.05,140,64,208.7,210.4,55,1,1,Endocrinology,Asthma,11
+913,61,Female,O,50.2,161.9,19.15,97,79,196.9,151.9,52,1,0,Pulmonology,Asthma,8
+914,79,Female,O,73.2,155.4,30.31,159,83,189.8,134.2,115,0,0,Cardiology,Hypertension,8
+915,25,Female,AB,89.2,165.6,32.53,158,108,255.7,261.6,64,1,0,General,Hypertension,11
+916,31,Male,AB,109.6,174.9,35.83,173,102,227.4,220.3,54,0,2,Pulmonology,Asthma,7
+917,29,Male,A,89.2,187.9,25.26,127,100,188.7,222.4,101,0,3,General,Asthma,6
+918,46,Male,A,59.2,160.8,22.9,179,61,281.4,311.8,100,0,3,Pulmonology,Diabetes,11
+919,74,Male,AB,71.1,189.4,19.82,167,97,170.8,131.6,108,1,3,Pulmonology,Healthy,10
+920,79,male,A,68.2,151.2,,117,94,288.1,305.3,53,0,2,Endocrinology,Hypertension,12
+921,71,Female,AB,110.4,168.2,39.02,121,77,70.5,198.0,80,1,0,General,Diabetes,8
+922,46,Male,A,119.5,185.1,34.88,166,60,289.4,308.5,95,1,0,Endocrinology,Heart Disease,16
+923,50,Male,AB,76.1,189.3,21.24,123,78,94.6,168.1,120,0,0,Cardiology,Hypertension,6
+924,62,Female,B,78.3,176.1,25.25,142,109,198.4,289.3,69,1,3,General,Hypertension,11
+925,76,Female,AB,79.3,174.0,26.19,122,73,107.3,294.6,89,1,2,General,Healthy,6
+926,80,Female,O,88.1,154.5,36.91,94,104,111.7,206.0,119,1,3,Endocrinology,Diabetes,5
+927,71,Male,AB,112.9,187.6,32.08,101,106,226.5,269.4,83,0,3,Cardiology,Healthy,6
+928,49,Female,O,74.6,184.9,21.82,104,101,157.7,235.5,59,0,1,Cardiology,Heart Disease,2
+929,85,Male,O,91.2,169.0,,108,110,,168.0,89,0,2,Cardiology,Hypertension,10
+930,60,Female,O,115.2,157.4,46.5,100,87,180.8,,55,0,0,Cardiology,Diabetes,6
+931,46,Female,O,50.4,159.0,19.94,143,75,259.7,189.9,70,0,1,Endocrinology,Asthma,8
+932,68,Male,AB,,186.5,24.64,109,85,113.1,148.8,66,1,2,Cardiology,Diabetes,6
+933,82,Male,A,94.6,160.2,36.86,106,96,70.7,171.7,86,0,2,General,Heart Disease,3
+934,51,Female,O,106.2,,30.93,118,76,205.6,124.8,55,1,2,Cardiology,Diabetes,6
+935,18,Female,O,71.4,180.0,22.04,177,70,186.4,305.0,60,0,0,Cardiology,Diabetes,9
+936,79,Female,B,114.8,167.2,41.06,171,87,142.4,243.3,58,1,0,Pulmonology,Healthy,13
+937,20,Female,B,107.1,154.7,44.75,135,78,145.3,262.7,84,0,0,Pulmonology,Hypertension,2
+938,44,Female,AB,58.5,158.4,23.32,178,77,144.4,311.4,120,0,0,Pulmonology,Hypertension,5
+939,69,Male,O,92.3,,28.97,91,63,188.3,185.7,76,0,1,General,Heart Disease,6
+940,25,Female,AB,89.3,180.8,27.32,135,103,193.9,298.9,76,0,3,Pulmonology,Diabetes,7
+941,79,Male,B,90.2,179.7,27.93,144,101,97.9,312.6,79,0,2,Pulmonology,Hypertension,4
+942,61,Male,B,,183.7,17.45,148,82,142.9,192.5,54,1,3,Cardiology,Hypertension,11
+943,34,Female,AB,46.0,189.4,12.82,136,65,226.8,232.3,102,1,3,Cardiology,Hypertension,7
+944,45,Female,AB,110.6,167.2,39.56,120,65,179.6,229.2,95,1,2,General,Healthy,8
+945,50,Female,A,97.3,156.7,39.63,109,107,122.8,299.4,72,0,3,Pulmonology,Hypertension,3
+946,68,Male,O,75.2,160.2,29.3,159,64,206.9,,64,1,2,Endocrinology,Hypertension,10
+947,50,Male,A,109.1,187.0,31.2,114,69,79.6,123.8,56,1,2,Endocrinology,Hypertension,3
+948,82,female,AB,74.3,187.1,21.22,144,81,225.0,187.8,116,1,0,Endocrinology,Hypertension,10
+949,37,Male,A,101.8,,32.49,99,60,148.4,167.3,118,1,2,Cardiology,Asthma,7
+950,41,Female,AB,,189.1,25.92,90,66,267.6,205.7,88,1,2,General,Diabetes,10
+951,18,Female,O,91.6,162.9,,170,69,251.0,283.3,113,0,0,Endocrinology,Heart Disease,11
+952,46,Male,B,66.5,180.3,20.46,161,107,,260.3,78,0,2,General,Asthma,7
+953,44,Female,A,74.4,169.7,25.84,125,94,171.4,127.9,106,0,0,Pulmonology,Diabetes,7
+954,70,Male,AB,48.0,173.6,15.93,107,89,,167.3,111,0,2,Endocrinology,Hypertension,8
+955,63,Female,O,,156.9,22.26,115,60,299.5,291.6,91,0,1,Endocrinology,Diabetes,9
+956,67,Female,B,81.1,174.4,26.66,105,82,246.1,211.1,80,1,3,Endocrinology,Hypertension,13
+957,22,Male,B,114.4,150.6,50.44,125,69,168.6,182.8,81,1,1,General,Diabetes,7
+958,84,Female,A,75.0,162.5,28.4,94,99,262.6,317.3,97,0,0,Endocrinology,Diabetes,10
+959,65,Female,B,,187.3,13.37,138,101,222.9,309.4,78,1,0,Endocrinology,Diabetes,10
+960,50,Male,AB,106.5,173.6,,160,82,237.9,255.6,109,1,2,Endocrinology,Healthy,11
+961,19,Male,B,119.6,165.5,43.67,159,107,298.7,167.9,90,0,3,General,Healthy,10
+962,29,Male,B,74.4,175.3,24.21,135,96,277.6,161.1,92,0,2,Endocrinology,Hypertension,10
+963,64,Male,O,112.5,161.2,43.29,148,106,233.9,307.2,86,0,1,Pulmonology,Hypertension,11
+964,23,Male,A,45.2,177.8,14.3,97,94,277.6,290.6,69,0,3,Pulmonology,Hypertension,6
+965,65,Female,B,117.9,163.2,,98,109,176.8,231.2,78,0,0,General,Healthy,6
+966,69,Female,AB,92.2,182.2,27.77,90,82,253.0,306.2,109,1,1,Cardiology,Diabetes,7
+967,38,Male,B,113.3,165.6,,109,86,140.3,232.4,72,0,0,Cardiology,Hypertension,5
+968,66,Female,AB,72.7,169.3,25.36,100,87,115.1,142.4,77,1,2,Cardiology,Hypertension,8
+969,70,Female,O,105.8,152.4,45.55,110,106,233.5,287.5,98,0,0,General,Heart Disease,8
+970,22,Female,A,61.0,157.0,24.75,145,82,89.2,215.9,94,1,2,Cardiology,Hypertension,2
+971,49,Female,A,59.1,162.4,22.41,163,67,247.5,227.5,63,0,3,Pulmonology,Asthma,10
+972,23,Female,A,64.5,186.3,18.58,147,90,199.7,203.7,63,0,3,Cardiology,Diabetes,6
+973,19,Male,AB,,183.1,23.36,92,80,,297.4,85,0,0,Cardiology,Asthma,7
+974,50,Female,B,63.4,163.7,23.66,163,93,,143.8,80,0,1,Pulmonology,Hypertension,10
+975,56,Female,B,56.8,186.3,16.37,124,89,244.4,289.0,98,1,3,Pulmonology,Healthy,9
+976,36,Male,AB,63.5,175.0,20.73,105,98,,126.5,103,1,2,Cardiology,Asthma,6
+977,67,Female,O,86.0,164.5,31.78,135,88,173.1,293.3,98,0,0,Pulmonology,Diabetes,8
+978,19,Female,A,107.3,182.1,32.36,132,74,290.3,251.5,79,0,3,General,Asthma,10
+979,31,Male,B,,181.5,23.86,127,82,135.6,304.1,88,1,2,Endocrinology,Hypertension,6
+980,65,Female,O,78.0,165.5,28.48,92,86,72.8,140.8,65,0,1,Endocrinology,Diabetes,3
+981,78,Male,B,56.5,159.8,22.13,115,70,213.7,285.7,98,0,0,Cardiology,Heart Disease,8
+982,28,Female,A,53.4,183.5,15.86,157,71,151.3,,52,0,2,General,Healthy,4
+983,70,Male,A,62.2,163.6,23.24,161,98,80.0,,65,1,2,Endocrinology,Diabetes,9
+984,39,Male,AB,,168.7,30.85,118,97,97.9,303.4,70,0,1,General,Hypertension,0
+985,60,Female,O,105.9,172.1,35.75,135,107,245.1,244.4,57,0,0,Endocrinology,Diabetes,7
+986,44,Female,O,77.1,176.6,24.72,139,75,73.0,206.5,73,0,3,General,Heart Disease,4
+987,58,Male,B,109.2,163.1,41.05,148,105,286.0,312.7,57,1,3,Cardiology,Healthy,13
+988,25,Female,AB,118.7,153.5,50.38,155,79,189.2,176.6,81,1,3,Endocrinology,Healthy,10
+989,69,Male,A,71.9,161.1,27.7,147,87,125.6,144.8,94,1,3,General,Hypertension,9
+990,37,Female,O,103.0,161.0,39.74,145,96,,204.9,61,1,3,General,Healthy,9
+991,61,Female,A,72.9,,22.6,98,65,284.7,215.4,57,1,0,Cardiology,Heart Disease,8
+992,51,Male,B,50.9,175.8,,166,67,256.9,,58,0,2,General,Heart Disease,11
+993,71,Male,A,114.5,178.9,35.78,111,85,132.7,275.9,93,1,0,Endocrinology,Heart Disease,9
+994,82,Male,AB,78.6,164.9,,146,88,283.2,196.2,108,1,3,General,Asthma,12
+995,28,Female,O,76.1,164.6,28.09,108,65,132.9,307.5,106,1,1,General,Hypertension,5
+996,79,Female,O,60.4,177.1,19.26,158,65,293.4,200.1,105,1,0,Cardiology,Hypertension,13
+997,61,Male,B,45.1,178.3,14.19,144,88,295.6,208.6,77,0,2,Pulmonology,Hypertension,14
+998,61,Male,O,50.6,171.1,17.28,178,66,274.7,260.0,52,1,3,Cardiology,Hypertension,13
+999,45,Female,B,46.0,156.3,18.83,124,93,83.1,193.3,82,1,3,Endocrinology,Diabetes,6
+1000,21,Female,O,106.7,175.0,,93,94,149.9,265.6,55,1,0,Endocrinology,Healthy,1
+651,79,Female,AB,107.3,185.0,31.35,105,101,184.5,203.2,101,0,1,Endocrinology,Asthma,9
+775,43,Male,A,53.3,165.5,19.46,180,98,265.5,284.1,103,1,3,Cardiology,Hypertension,14
+929,85,Male,O,91.2,169.0,,108,110,,168.0,89,0,2,Cardiology,Hypertension,10
+340,76,Male,O,45.8,159.1,18.09,167,70,255.6,291.8,67,1,0,General,Asthma,15
+56,69,Female,B,112.3,178.0,35.44,139,85,147.9,151.1,101,0,2,Cardiology,Healthy,8
+59,22,Male,O,74.8,163.3,28.05,133,94,190.5,221.4,103,0,0,Pulmonology,Heart Disease,4
+900,42,female,A,99.8,164.8,36.75,171,82,215.1,317.7,55,1,2,Pulmonology,Asthma,12
+221,19,Female,O,94.1,164.6,34.73,157,71,,245.1,60,0,2,Endocrinology,Asthma,5
+688,83,Female,AB,55.1,157.5,22.21,173,75,217.0,275.3,95,1,0,Pulmonology,Hypertension,13
+326,45,Male,AB,50.1,174.3,16.49,180,64,298.2,283.3,75,1,3,Cardiology,Hypertension,15
+653,46,Male,B,109.7,,48.43,149,66,86.3,230.4,57,0,2,Pulmonology,Heart Disease,5
+109,34,Male,AB,104.0,172.5,34.95,153,68,186.2,125.2,53,0,1,Endocrinology,Hypertension,8
+874,46,Male,O,47.3,165.1,17.35,147,73,149.5,248.6,110,0,0,Endocrinology,Diabetes,7
+80,20,Male,B,100.8,178.8,31.53,158,71,127.0,295.1,79,1,2,Endocrinology,Heart Disease,5
+668,64,Male,B,114.5,161.1,44.12,127,71,228.5,146.7,72,1,2,Pulmonology,Diabetes,12
+872,26,Female,O,62.4,185.5,18.13,171,82,244.7,304.5,89,1,0,Pulmonology,Healthy,14
+466,54,Male,O,107.0,157.7,43.02,126,107,170.7,129.4,64,0,1,Pulmonology,Asthma,4
+992,51,Male,B,50.9,175.8,,166,67,256.9,,58,0,2,General,Heart Disease,11
+933,82,Male,A,94.6,160.2,36.86,106,96,70.7,171.7,86,0,2,General,Heart Disease,3
+823,67,Female,B,73.9,150.4,32.67,97,93,,194.0,114,0,1,Pulmonology,Asthma,8
+763,37,Female,B,68.7,187.1,19.62,159,89,,146.3,106,0,3,Cardiology,Diabetes,5
+541,32,Female,O,61.9,171.2,21.12,116,90,101.4,226.9,58,0,3,Endocrinology,Heart Disease,0
+121,36,Female,O,56.7,161.3,21.79,114,75,120.9,137.0,92,0,1,Cardiology,Asthma,4
+282,53,Male,O,64.7,185.4,18.82,109,68,197.0,,96,0,3,Cardiology,Diabetes,5
+496,67,Male,O,,169.4,37.36,115,89,228.7,152.7,116,0,2,General,Hypertension,8
