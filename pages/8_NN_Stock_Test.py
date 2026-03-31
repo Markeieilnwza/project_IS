@@ -78,7 +78,9 @@ def load_model():
 # พยายามโหลดโมเดล
 try:
     model, scaler, encoders = load_model()
-    model_loaded = True
+    model_loaded = model is not None and scaler is not None and encoders is not None
+    if not model_loaded:
+        st.error("❌ ไม่สามารถโหลดโมเดล Neural Network ได้ - Model file may be corrupted")
 except Exception as e:
     model_loaded = False
     st.error(f"❌ ไม่สามารถโหลดโมเดลได้: {e}")
