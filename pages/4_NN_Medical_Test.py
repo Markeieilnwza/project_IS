@@ -71,8 +71,18 @@ def load_model():
                 st.error(f"❌ Could not load NN model - {str(e2)[:150]}")
                 model = None
     
-    scaler = joblib.load(os.path.join(MODEL_DIR, "scaler.pkl"))
-    encoders = joblib.load(os.path.join(MODEL_DIR, "encoders.pkl"))
+    try:
+        scaler = joblib.load(os.path.join(MODEL_DIR, "scaler.pkl"))
+    except Exception as e:
+        st.warning(f"⚠️ Could not load scaler: {str(e)[:100]}")
+        scaler = None
+    
+    try:
+        encoders = joblib.load(os.path.join(MODEL_DIR, "encoders.pkl"))
+    except Exception as e:
+        st.warning(f"⚠️ Could not load encoders: {str(e)[:100]}")
+        encoders = None
+    
     return model, scaler, encoders
 
 # พยายามโหลดโมเดล
