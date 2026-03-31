@@ -114,17 +114,28 @@ if submitted:
         # Encode categorical features ด้วย encoders ที่บันทึกไว้
         categorical_cols = ["symbol"]
         
-        # Handle encoders - could be dict or single encoder
-        if isinstance(encoders, dict):
-            for col in categorical_cols:
-                if col in encoders:
-                    df_input[col] = encoders[col].transform(df_input[col])
-        else:
-            # If encoders is a single encoder, skip encoding (assume data is already encoded)
-            pass
+        try:
+            # Handle encoders - could be dict or ColumnTransformer
+            if isinstance(encoders, dict):
+                for col in categorical_cols:
+                    if col in encoders:
+                        df_input[col] = encoders[col].transform(df_input[col])
+            else:
+                # Try to apply encoders as a transformer to the whole dataframe or specific columns
+                try:
+                    df_input[categorical_cols] = encoders.transform(df_input[categorical_cols])
+                except:
+                    # If that fails, try to apply to whole dataframe
+                    df_input = encoders.transform(df_input)
+        except Exception as e:
+            st.error(f"⚠️ ข้อผิดพลาดในการ encode: {str(e)}")
 
         # Scale features ด้วย scaler ที่บันทึกไว้
-        df_scaled = scaler.transform(df_input)
+        try:
+            df_scaled = scaler.transform(df_input)
+        except Exception as e:
+            st.error(f"❌ ข้อผิดพลาดในการ scale ข้อมูล: {str(e)}")
+            st.stop()
 
         # ทำนายด้วย Neural Network
         prediction = model.predict(df_scaled)
